@@ -7,9 +7,9 @@
 
 ## Bookmarklet: Launch (Official)
 
-'''javascript
+```javascript
 javascript:location.href='bang-on://'+location.href
-'''
+```
 
 Note: I tweeted the developer @kepner about what the +location.href does, here's [his reply](https://twitter.com/kepner/status/296825551887429632)
 
@@ -17,6 +17,6 @@ Note: I tweeted the developer @kepner about what the +location.href does, here's
 
 ## Bookmarklet: Search for Selection
 
-'''javascript
+```javascript
     javascript:location.href='bang-on://?q='+encodeURIComponent(window.getSelection())
-'''
+```
