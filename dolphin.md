@@ -27,5 +27,3 @@ Note: This will open an https: link in Dolphin but it will strip away the 's.' U
 
 [@DolphinCares](http://twitter.com/DolphinCares/status/296874545028161536)
 > @chriswhite Sorry, we don't support such URL right now.
-
-http://twitter.com/DolphinCares/status/296874545028161536
