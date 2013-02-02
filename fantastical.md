@@ -1,0 +1,3 @@
+# Fantastical
+
+## URL Scheme
