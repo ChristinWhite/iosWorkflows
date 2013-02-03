@@ -46,7 +46,7 @@
 
 This isn't ideal because you need to strip out the protocol manually since 1Password doesn't know what to do with this link:
 
-*[ophttp://http://www.google.com][]*
+*[ophttp://http://www.google.com](ophttp://http://www.google.com)*
 
     Name: Open Link (without protocol) in 1Password
     URL: ophttp://[[title]]
@@ -133,4 +133,4 @@ Being able to search more than the item names would be a **huge** improvement to
 
 It would also be fantastic if you switched over to or added x-callback-url functionality to your scheme. With it it would be easy to open 1Password from Safari (or another alternative browser), do a search for the URL, copy your password and have 1Password automatically send you back to your other browser. Paste the password and you're done, it isn't quite like having a browser extension but it would be the most seamless 1Password integration possible on iOS.
 
-Finally, it would be nice to have ophttp://http:www.google.com, ophttps://https://www.google.com or even ophttp://https://www.google.com work so that 'Open URL in 1Password' actions could be added to apps like Drafts that don't offer JavaScript (like a browser) or more advanced URL configurability (like Mr. Reader) to automatically strip away the *http://* protocol and replace it with *ophttp://.* See [Mercury Browser](http://mercury-browser.com/) for precedent. 
+Finally, it would be nice to have [ophttp://http:www.google.com](ophttp://http:www.google.com), [ophttps://https://www.google.com](ophttps://https://www.google.com) or even [ophttp://https://www.google.com](ophttps://https://www.google.com) work so that 'Open URL in 1Password' actions could be added to apps like Drafts that don't offer JavaScript (like a browser) or more advanced URL configurability (like Mr. Reader) to automatically strip away the *http://* protocol and replace it with *ophttp://.* See [Mercury Browser](http://mercury-browser.com/) for precedent. 
