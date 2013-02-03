@@ -29,6 +29,8 @@ Open in 1Password's browser:
         ophttp://[URL-WITHOUT-PROTOCOL]
         ophttps://[URL-WITHOUT-PROTOCOL]
 
+You can also use [this import link](https://github.com/christopherdwhite/iosWorkflows/raw/master/mrReader-configs/381548172.290038.mrreaderbrowserconf). Open in 
+
 ## Drafts URL Action: Open Link (without protocol) in 1Password
 
 This isn't ideal because you need to strip out the protocol manually since 1Password doesn't know what to do with ophttp://http://www.google.com
