@@ -22,19 +22,21 @@ x-callback-url:
 
 [Opening links in Chrome for iOS](https://developers.google.com/chrome/mobile/docs/ios-links)
 
-## Bookmarklet: Open in Chrome (by [Jon Abrams](http://blog.jonabrams.com/post/26099585134/open-in-chrome))
+## Bookmarklets
+
+### Open in Chrome (by [Jon Abrams](http://blog.jonabrams.com/post/26099585134/open-in-chrome))
 
 ```javascript
 javascript:location.href="googlechrome"+location.href.substring(4);
 ```
 
-## Bookmaklet: Open in Chrome & Return to Dolphin
+### Open in Chrome & Return to Dolphin
 
 ```javascript
-javascript:if(location.href.substring(4,5)=='s'){var%20link=location.href.substring(5);}else{link=location.href.substring(4);}location.href='googlechrome-x-callback://x-callback-url/open/?url='+encodeURIComponent(location.href)+'&x-source=Dolphin&x-success=dolphin://'+encodeURIComponent(link)
+javascript:if(location.href.substring(4,5)=='s'){var%20link=location.href.substring(5);}else{link=location.href.substring(4);}location.href='googlechrome-x-callback://x-callback-url/open/?url='+encodeURIComponent(location.href)+'&x-source=Dolphin&x-success=dolphin://';
 ```
 
-## Bookmaklet: Open in Chrome & Return to Mercury
+### Open in Chrome & Return to Mercury
 
 ```javascript
 javascript:location.href='googlechrome-x-callback://x-callback-url/open/?url='+encodeURIComponent(location.href)+'&x-source=Mercury&x-success=merc://'+encodeURIComponent(location.href)
