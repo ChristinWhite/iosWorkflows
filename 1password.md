@@ -44,7 +44,9 @@
 
 ## Drafts URL Action: Open Link (without protocol) in 1Password
 
-This isn't ideal because you need to strip out the protocol manually since 1Password doesn't know what to do with ophttp://http://www.google.com
+This isn't ideal because you need to strip out the protocol manually since 1Password doesn't know what to do with this link:
+
+*[ophttp://http://www.google.com][]*
 
     Name: Open Link (without protocol) in 1Password
     URL: ophttp://[[title]]
