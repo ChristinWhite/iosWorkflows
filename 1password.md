@@ -15,7 +15,7 @@
 	ophttps://
 	ophttps://www.google.com
 
-Reference: [Developers: Here’s how to add a little 1Password to your iOS apps](http://blog.agilebits.com/2013/01/24/developers-heres-how-to-add-a-little-1password-to-your-ios-apps/)
+Source: [Developers: Here’s how to add a little 1Password to your iOS apps](http://blog.agilebits.com/2013/01/24/developers-heres-how-to-add-a-little-1password-to-your-ios-apps/)
 
 ## Launch Center Pro
 
