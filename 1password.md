@@ -29,13 +29,13 @@ Based on Jon Abrams' [Google Chrome Bookmarklet](http://blog.jonabrams.com/post/
 javascript:location.href='onepassword://search/'+encodeURIComponent(window.getSelection());
 ```
 
-## Bookmarklet: Search 1Password for...?
+## Bookmarklet: Search 1Password for...? Prompt
 
 ```javascript
 javascript:var%20search=window.prompt('Search%201Password%20for...');location.href='onepassword://search/'+encodeURIComponent(search);
 ```
 
-## Bookmarklet: Search 1Password for Domain
+## Bookmarklet: Search 1Password for Current Domain
 
 ```javascript
 javascript:var%20domainString=document.domain;if(domainString.substring(0,4)=='www.'){domainString=domainString.substring(4)}location.href='onepassword://search/'+domainString;
