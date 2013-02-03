@@ -55,7 +55,9 @@ if (domainString.substring(0,4) == 'www.') {
 location.href = 'onepassword://search/' + domainString;
 ```
 
-Note: This bookmarklet will work great if you always name your 1Password logins the domain name (*twitter.com*,*finerthings.in*,) which is the default convention if you use the 1Password browser extensions. However, since 1Password for iOS only searches the item names, not their URL's this may cause problems if you name your logins by site name since searching for *twitter.com* won't find an item named *Twitter* due the URL suffix.
+Note: This bookmarklet will work great if you always name your 1Password logins the domain name (*twitter.com*) which is the default item name if you use the 1Password browser extensions to create the login. However, since 1Password for iOS only searches the item names, not their URL's this may cause problems if you name your logins by site name since searching for *twitter.com* won't find an item named *Twitter* due the URL suffix. 
+
+I almost always adjust the name when I'm using the extension or I catch it when I do a cleanup review later so for me this isn't a great option. If 1Password for iOS eventually adds the functionality to search URL and other information instead of just titles this will become infinitely more useful.
 
 ## Bookmarklet: Search 1Password for...? If Empty Search 1Password for Domain
 
