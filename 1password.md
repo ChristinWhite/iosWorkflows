@@ -131,8 +131,8 @@ javascript:var%20search=window.prompt('Search%201Password%20for...');if(search==
 
 ## AgileBits Requests
 
-Being able to search more than the item names would be a **huge** improvement to your possible URL Scheme workflows.
+Being able to search more than the item names would be a **huge** improvement to open up more possibilities for URL Scheme workflows.
 
-It would also be fantastic if you switched over to or added x-callback-url functionality to your scheme. With it it would be easy to open 1Password from Safari (or another alternative browser), do a search for the URL, copy your password and have 1Password automatically send you back to your other browser. Paste the password and you're done, it isn't quite like having a browser extension but it would be the most seamless 1Password integration possible on iOS.
+It would also be fantastic if you switched over to or added x-callback-url functionality to your scheme. With an x-callback-url scheme it would be easy to open 1Password from Safari (or another alternative browser), do a search for the URL or title, then let the user select the item and copy your password. 1Password could then automatically send you back to your other browser where you could paste the password. It isn't quite like having a browser extension but it would be the most seamless 1Password workflow possible on iOS so far.
 
 Finally, it would be nice to have [ophttp://http:www.google.com](ophttp://http:www.google.com), [ophttps://https://www.google.com](ophttps://https://www.google.com) or even [ophttp://https://www.google.com](ophttps://https://www.google.com) work so that 'Open URL in 1Password' actions could be added to apps like Drafts that don't offer JavaScript (like a browser) or more advanced URL configurability (like Mr. Reader) to automatically strip away the *http://* protocol and replace it with *ophttp://.* See [Mercury Browser](http://mercury-browser.com/) for precedent. 
