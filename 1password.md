@@ -11,9 +11,11 @@
 ### Open in 1Password's browser:
 
 	ophttp://
+	ophttp://www.google.com
 	ophttps://
+	ophttps://www.google.com
 
-[Developers: Here’s how to add a little 1Password to your iOS apps](http://blog.agilebits.com/2013/01/24/developers-heres-how-to-add-a-little-1password-to-your-ios-apps/)
+Reference: [Developers: Here’s how to add a little 1Password to your iOS apps](http://blog.agilebits.com/2013/01/24/developers-heres-how-to-add-a-little-1password-to-your-ios-apps/)
 
 ## Launch Center Pro
 
