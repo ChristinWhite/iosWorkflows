@@ -35,6 +35,10 @@ Source: [Developers: Here’s how to add a little 1Password to your iOS apps](ht
 
     onepassword://search/[prompt]
 
+## Bang On Custom URL Scheme
+
+    onepassword://search/%@
+
 ## Mr. Reader Browser Service: Open in 1Password
 
     App Name: 1Password
