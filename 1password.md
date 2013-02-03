@@ -59,7 +59,7 @@ Note: This bookmarklet will work great if you always name your 1Password logins 
 
 I almost always adjust the name when I'm using the extension or I catch it when I do a cleanup review later so for me this isn't a great option. If 1Password for iOS eventually adds the functionality to search URL and other information instead of just titles this will become infinitely more useful.
 
-## Bookmarklet: Search 1Password for...? If Empty Search 1Password for Domain
+## Bookmarklet: Search 1Password for...? If Empty Search for Domain
 
 ```javascript
 var search = window.prompt('Search%201Password%20for...');
