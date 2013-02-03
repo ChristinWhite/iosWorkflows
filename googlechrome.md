@@ -40,4 +40,4 @@ javascript:if(location.href.substring(4,5)=='s'){var%20link=location.href.substr
 javascript:location.href='googlechrome-x-callback://x-callback-url/open/?url='+encodeURIComponent(location.href)+'&x-source=Mercury&x-success=merc://'+encodeURIComponent(location.href)
 ```
 
-Note: x-callback Bookmarklets are based on [Google Chrome URL Schemes documentation](https://developers.google.com/chrome/mobile/docs/ios-links), Federico Viticci´s [Chrome to Safari bookmarklet](http://www.macstories.net/tutorials/chrome-for-ios-send-a-webpage-back-to-safari-via-bookmarklet/) & the respective browser bookmarklets listed here.
+Note: x-callback Bookmarklets are based on [Google Chrome URL Schemes documentation](https://developers.google.com/chrome/mobile/docs/ios-links), Federico Viticci´s [Chrome to Safari bookmarklet](http://www.macstories.net/tutorials/chrome-for-ios-send-a-webpage-back-to-safari-via-bookmarklet/) & the respective browser bookmarklets included in my other workflows.

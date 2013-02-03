@@ -17,11 +17,11 @@ Open in 1Password's browser:
 
 ## Bookmarklet: Open in 1Password
 
+Based on Jon Abrams' [Google Chrome Bookmarklet](http://blog.jonabrams.com/post/26099585134/open-in-chrome) for the substring trick.
+
 ```javascript
 javascript:location.href='ophttp'+location.href.substring(4);
 ```
-
-Based on Jon Abrams' [Google Chrome Bookmarklet](http://blog.jonabrams.com/post/26099585134/open-in-chrome).
 
 ## Bookmarklet: Search 1Password for Selection
 
@@ -36,6 +36,10 @@ javascript:var%20search=window.prompt('Search%201Password%20for...');location.hr
 ```
 
 ## Bookmarklet: Search 1Password for Current Domain
+
+This bookmarklet will work great if you always name your 1Password logins the domain name (*twitter.com*) which is the default item name if you use the 1Password browser extensions to create the login. However, since 1Password for iOS only searches the item names, not their URL's this may cause problems if you name your logins by site name since searching for *twitter.com* won't find an item named *Twitter* due the URL suffix. 
+
+I almost always adjust the name when I'm using the extension or I catch it when I do a cleanup review later so for me this isn't a great option. If 1Password for iOS eventually adds the functionality to search URL and other information instead of just titles this will become infinitely more useful.
 
 ```javascript
 javascript:var%20domainString=document.domain;if(domainString.substring(0,4)=='www.'){domainString=domainString.substring(4)}location.href='onepassword://search/'+domainString;
@@ -55,11 +59,9 @@ if (domainString.substring(0,4) == 'www.') {
 location.href = 'onepassword://search/' + domainString;
 ```
 
-Note: This bookmarklet will work great if you always name your 1Password logins the domain name (*twitter.com*) which is the default item name if you use the 1Password browser extensions to create the login. However, since 1Password for iOS only searches the item names, not their URL's this may cause problems if you name your logins by site name since searching for *twitter.com* won't find an item named *Twitter* due the URL suffix. 
-
-I almost always adjust the name when I'm using the extension or I catch it when I do a cleanup review later so for me this isn't a great option. If 1Password for iOS eventually adds the functionality to search URL and other information instead of just titles this will become infinitely more useful.
-
 ## Bookmarklet: Search 1Password for...? If Empty Search for Domain
+
+This bookmarklet combines the prior two. I don't usually leave 1Password item names as just the domain names but I figured having it doesn't hurt to have this as a backup option.
 
 ```javascript
 var search = window.prompt('Search%201Password%20for...');
@@ -81,5 +83,3 @@ Expanded
 ```javascript
 javascript:var%20search=window.prompt('Search%201Password%20for...');if(search==''){var%20search=document.domain;if(search.substring(0,4)=='www.'){search=search.substring(4);}}location.href='onepassword://search/'+encodeURIComponent(search);
 ```
-
-This bookmarklet combines the prior two. I don't usually leave 1Password item names as just the domain names but I figured having it doesn't hurt to have this as a backup option.
