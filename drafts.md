@@ -15,7 +15,7 @@ Expanded:
 ```javascript
 javascript:
 
-if (window.getSelection()! = '') {
+if (window.getSelection() != '') {
     var selected = encodeURIComponent(window.getSelection());
     var selected = '%250A%250A%253E%2520' + selected.replace(/%250A/g,'%250A%253E%2520');
 } else {
@@ -36,7 +36,7 @@ Expanded:
 ```javascript
 javascript:
 
-if (window.getSelection()! = '') {
+if (window.getSelection() != '') {
     var selected = encodeURIComponent(window.getSelection());
     var selected = '%250A%250A%253E%2520' + selected.replace(/%250A/g,'%250A%253E%2520');
 } else {
