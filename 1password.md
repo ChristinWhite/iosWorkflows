@@ -120,6 +120,10 @@ Expanded
 javascript:var%20search=window.prompt('Search%201Password%20for...');if(search==''){var%20search=document.domain;if(search.substring(0,4)=='www.'){search=search.substring(4);}}location.href='onepassword://search/'+encodeURIComponent(search);
 ```
 
+## Todo
+
+- Pythonista?
+
 ## AgileBits Requests
 
 Being able to search more than the item names would be a **huge** improvement to your possible URL Scheme workflows.
