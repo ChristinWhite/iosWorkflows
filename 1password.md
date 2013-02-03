@@ -15,11 +15,23 @@ Open in 1Password's browser:
 
 [Developers: Here’s how to add a little 1Password to your iOS apps](http://blog.agilebits.com/2013/01/24/developers-heres-how-to-add-a-little-1password-to-your-ios-apps/)
 
-## Launch Center Pro: Open *Clipboard* Link in 1Password
+## Launch Center Pro
 
-## Launch Center Pro: Search 1Password for *Clipboard*
+### Launch Center Pro: Open HTTP URL (Official + Clipboard)
 
-## Launch Center Pro: Search 1Password for *Prompt*
+    ophttp://[clipboard]
+
+### Launch Center Pro: Open HTTPS URL (Official + Clipboard)
+
+    ophttps://[clipboard]
+
+### Launch Center Pro: Search for Clipped (Official + Clipboard)
+
+    onepassword://search/[clipboard]
+
+### Launch Center Pro: Search 1Password for ..? (Official + Prompt)
+
+    onepassword://search/[prompt]
 
 ## Mr. Reader Browser Service: Open in 1Password
 
@@ -27,9 +39,8 @@ Open in 1Password's browser:
     Protocol: onepassword:
     HTTP URL Scheme:
         ophttp://[URL-WITHOUT-PROTOCOL]
+    HTTPS URL Scheme:
         ophttps://[URL-WITHOUT-PROTOCOL]
-
-You can also use [this import link](https://github.com/christopherdwhite/iosWorkflows/raw/master/mrReader-configs/381548172.290038.mrreaderbrowserconf). Open in 
 
 ## Drafts URL Action: Open Link (without protocol) in 1Password
 
@@ -37,8 +48,6 @@ This isn't ideal because you need to strip out the protocol manually since 1Pass
 
     Name: Open Link (without protocol) in 1Password
     URL: ophttp://[[title]]
-
-You can also use [this import link](drafts://x-callback-url/import_action?type=URL&name=Open%20Link%20%28without%20protocol%29%20in%201Password&url=ophttp%3A%2F%2F%5B%5Btitle%5D%5D)
 
 ## Browser Bookmarklets 
 
