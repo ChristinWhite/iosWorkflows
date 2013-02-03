@@ -2,13 +2,13 @@
 
 ## URL Scheme
 
-Search 1Password:
+### Search 1Password:
 
 	onepassword://
 	onepassword://search/
 	onepassword://search/twitter
 
-Open in 1Password's browser:
+### Open in 1Password's browser:
 
 	ophttp://
 	ophttps://
@@ -17,19 +17,19 @@ Open in 1Password's browser:
 
 ## Launch Center Pro
 
-### Launch Center Pro: Open HTTP URL (Official + Clipboard)
+### Open HTTP URL (Official + Clipboard)
 
     ophttp://[clipboard]
 
-### Launch Center Pro: Open HTTPS URL (Official + Clipboard)
+### Open HTTPS URL (Official + Clipboard)
 
     ophttps://[clipboard]
 
-### Launch Center Pro: Search for Clipped (Official + Clipboard)
+### Search for Clipped (Official + Clipboard)
 
     onepassword://search/[clipboard]
 
-### Launch Center Pro: Search 1Password for ..? (Official + Prompt)
+### Search 1Password for ..? (Official + Prompt)
 
     onepassword://search/[prompt]
 
@@ -51,7 +51,7 @@ This isn't ideal because you need to strip out the protocol manually since 1Pass
 
 ## Browser Bookmarklets 
 
-### Bookmarklet: Open in 1Password
+### Open in 1Password
 
 Based on Jon Abrams' [Google Chrome Bookmarklet](http://blog.jonabrams.com/post/26099585134/open-in-chrome) for the substring trick.
 
@@ -59,19 +59,19 @@ Based on Jon Abrams' [Google Chrome Bookmarklet](http://blog.jonabrams.com/post/
 javascript:location.href='ophttp'+location.href.substring(4);
 ```
 
-### Bookmarklet: Search 1Password for Selection
+### Search 1Password for Selection
 
 ```javascript
 javascript:location.href='onepassword://search/'+encodeURIComponent(window.getSelection());
 ```
 
-### Bookmarklet: Search 1Password for...? Prompt
+### Search 1Password for...? Prompt
 
 ```javascript
 javascript:var%20search=window.prompt('Search%201Password%20for...');location.href='onepassword://search/'+encodeURIComponent(search);
 ```
 
-### Bookmarklet: Search 1Password for Current Domain
+### Search 1Password for Current Domain
 
 This bookmarklet will work great if you always name your 1Password logins the domain name (*twitter.com*) which is the default item name if you use the 1Password browser extensions to create the login. However, since 1Password for iOS only searches the item names, not their URL's this may cause problems if you name your logins by site name since searching for *twitter.com* won't find an item named *Twitter* due the URL suffix. 
 
@@ -95,7 +95,7 @@ if (domainString.substring(0,4) == 'www.') {
 location.href = 'onepassword://search/' + domainString;
 ```
 
-### Bookmarklet: Search 1Password for...? If Empty Search for Domain
+### Search 1Password for...? If Empty Search for Domain
 
 This bookmarklet combines the prior two. I don't usually leave 1Password item names as just the domain names but I figured having it doesn't hurt to have this as a backup option.
 
