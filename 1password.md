@@ -101,7 +101,7 @@ location.href = 'onepassword://search/' + domainString;
 
 ### Search 1Password for...? If Empty Search for Domain
 
-This bookmarklet combines the prior two. I don't usually leave 1Password item names as just the domain names but I figured having it doesn't hurt to have this as a backup option.
+This bookmarklet combines the prior two. I don't usually leave 1Password item names as just the domain names but it could be useful to have the domain feature built into a single bookmarklet.
 
 ```javascript
 var search = window.prompt('Search%201Password%20for...');
