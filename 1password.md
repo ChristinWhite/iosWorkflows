@@ -124,7 +124,7 @@ Expanded
 javascript:var%20search=window.prompt('Search%201Password%20for...');if(search==''){var%20search=document.domain;if(search.substring(0,4)=='www.'){search=search.substring(4);}}location.href='onepassword://search/'+encodeURIComponent(search);
 ```
 
-## Todo
+## Further Ideas
 
 - Pythonista?
     - Protocol converter for apps like Drafts?
