@@ -123,6 +123,7 @@ javascript:var%20search=window.prompt('Search%201Password%20for...');if(search==
 ## Todo
 
 - Pythonista?
+    - Protocol converter for apps like Drafts?
 
 ## AgileBits Requests
 
