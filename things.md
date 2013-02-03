@@ -9,7 +9,7 @@ Things doesn't like to be launched, it expects you to define a new task and when
 
 Strangely, Things also doesn't use the typical AppName:// syntax, including the '//' doesn't work. I'm guessing this might be a leftover from the Mac app's URL scheme but it's just a guess.
 
-As far as documentation goes there is a [forum post](https://culturedcode.com/forums/read.php?8,48550,49212#msg-49212) that gives the above example but that´s pretty much it. An official developer page may or may not be coming <strike>soon</strike> ever.
+As far as documentation goes there is a [forum post](https://culturedcode.com/forums/read.php?8,48550,49212#msg-49212) that gives the above example but that´s pretty much it. An official developer page may or may not be coming ~~soon~~ ever.
 
 ## Bookmarklet: Create Things Task with Timestamp ([semi-official](https://culturedcode.com/forums/read.php?8,48550,49622#msg-49622))
 

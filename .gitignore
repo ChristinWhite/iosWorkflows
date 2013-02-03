@@ -4,3 +4,5 @@
 *.sublime-workspace
 
 scratch.js
+
+*.espressostorage
