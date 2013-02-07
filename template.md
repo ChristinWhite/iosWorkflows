@@ -1,7 +1,5 @@
 # App Name
 
-## App Information
-
 [iTunes Link](Link) • [Official Site](Link)
 
 ## URL Scheme

@@ -1,7 +1,5 @@
 # 1Password
 
-## App Information
-
 [iTunes Link](https://itunes.apple.com/us/app/1password/id568903335?mt=8) • [Official Site](https://agilebits.com/onepassword)
 
 Note: Some or all of these workflows may not work on previous versions of 1Password such as 1Password for iPhone, 1Password for iPad and 1Password Pro.
