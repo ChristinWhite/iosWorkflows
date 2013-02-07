@@ -37,7 +37,9 @@ Source:
     HTTPS URL Scheme:
         URL Sceme
 
-[Install Service](mrreader-services/read-later-in-pinbook.mrreaderappconf)
+[Install Service](../../raw/master/mrreader-services/read-later-in-pinbook.mrreaderappconf)
+
+https://github.com/christopherdwhite/iosWorkflows/raw/master/mrreader-services/read-later-in-pinbook.mrreaderappconf
 
 To install this service you will need to open this page in Safari on your iPad and tap the **Install Service** link or save the file to an app like Dropbox that will let you choose what app 
 
