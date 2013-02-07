@@ -23,11 +23,19 @@ The private flag doesn't seem to be working at the moment, I've contacted the de
 
 ### Bookmark Clipboard in Pinboard
 
+
+
 ### Bookmark Clipboard in Pinbook with Tags Prompt
+
+
 
 ### Bookmark Clipboard in Pinbook with Description Prompt
 
+
+
 ### Bookmark Clipboard in Pinbook with Tags & Description Prompts
+
+
 
 ---
 
@@ -42,14 +50,18 @@ The private flag doesn't seem to be working at the moment, I've contacted the de
 
 ### Add to Pinbook (Private)
 
+
+
 ### Read Later in Pinbook
 
-App Name: Read Later in Pinbook
-Protocol: pinbook:
-URL Scheme Template
-    pinbook://x-callback-url/add?url=[URL]&title={[TITLE]}&readlater=yes&description={[TEXT-SELECTED]}
+    App Name: Read Later in Pinbook
+    Protocol: pinbook:
+    URL Scheme Template
+      pinbook://x-callback-url/add?url=[URL]&title={[TITLE]}&readlater=yes&description={[TEXT-SELECTED]}
 
 ### Read Later in Pinbook (Private)
+
+
 
 ---
 
@@ -63,6 +75,8 @@ Note: For all of these actions the URL must be on the first line in Drafts. Any 
     URL: pinbook://x-callback-url/add?url=[[title]]&description=[[body]]
 
 ### Add Link to Pinbook (Private)
+
+
 
 ### Read Later in Pinbook
 
@@ -96,6 +110,8 @@ javascript:location.href='pinbook://x-callback-url/add?'+'url='+encodeURICompone
 ```
 
 ### Read Later in Pinbook (Private)
+
+
 
 ---
 
