@@ -54,6 +54,8 @@ This isn't ideal because you need to strip out the protocol manually since 1Pass
 
 *[ophttp://http://www.google.com](ophttp://http://www.google.com)*
 
+Note: The URL must be on the first line in Drafts.
+
     Name: Open Link (without protocol) in 1Password
     URL: ophttp://[[title]]
 
