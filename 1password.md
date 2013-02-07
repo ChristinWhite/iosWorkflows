@@ -62,8 +62,8 @@ Documentation: [Developers: Here’s how to add a little 1Password to your iOS a
     HTTPS URL Scheme:
         ophttps://[URL-WITHOUT-PROTOCOL]
 
-[Download Service](https://github.com/christopherdwhite/iosWorkflows/raw/master/mrreader-services/1password.mrreaderappconf)
-
+[Download Service](https://raw.github.com/christopherdwhite/iosWorkflows/master/mrreader-services/1password.mrreaderbrowserconf)
+                   
 ---
 
 ## Drafts Actions

@@ -41,7 +41,7 @@ Documentation: [Official](Link) • [handleOpenURL](Link)
     HTTPS URL Scheme:
         URL Sceme
 
-[Download Service](https://github.com/christopherdwhite/iosWorkflows/raw/master/mrreader-services/FILENAME.mrreaderappconf)
+[Download Service](https://raw.github.com/christopherdwhite/iosWorkflows/master/mrreader-services/FILENAME.mrreaderbrowserconf)
 
 ### Other App Service
 
@@ -55,7 +55,7 @@ Documentation: [Official](Link) • [handleOpenURL](Link)
         Text Selection Menu: On/Off
         Link Menu: On/Off
 
-[Download Service](https://github.com/christopherdwhite/iosWorkflows/raw/master/mrreader-services/FILENAME.mrreaderappconf)
+[Download Service](https://raw.github.com/christopherdwhite/iosWorkflows/master/mrreader-services/FILENAME.mrreaderbrowserconf)
 
 ---
 
