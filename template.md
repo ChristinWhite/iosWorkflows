@@ -2,8 +2,6 @@
 
 [iTunes Link](Link) • [Official Site](Link)
 
-## App Information
-
 ## URL Scheme
 
 ### Function
