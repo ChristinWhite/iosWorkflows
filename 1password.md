@@ -50,7 +50,7 @@ Source: [Developers: Here’s how to add a little 1Password to your iOS apps](ht
 
 ## Drafts URL Action: Open Link (without protocol) in 1Password
 
-This isn't ideal because you need to strip out the protocol manually since 1Password doesn't know what to do with this link:
+This isn't ideal because you need to strip out the protocol manually since 1Password doesn't know what to do with this kind of link:
 
 *[ophttp://http://www.google.com](ophttp://http://www.google.com)*
 
