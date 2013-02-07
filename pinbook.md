@@ -39,7 +39,7 @@ The private flag doesn't seem to be working at the moment, I've contacted the de
 
 ---
 
-## Mr. Reader Pinbook Services
+## Mr. Reader Services
 
 ### Add to Pinbook
 
