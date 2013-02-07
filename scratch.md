@@ -1,3 +1,0 @@
-# Scratch
-
-## URL Scheme

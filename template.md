@@ -1,14 +1,18 @@
 # App Name
 
+[iTunes Link](Link) • [Official Site](Link)
+
 ## App Information
 
 ## URL Scheme
 
-    Protocol
-        Parameters
-            Examples
+### Function
 
-Source:
+    Protocol
+        Parameter
+            Example
+
+Documentation: [Official](Link) • [handleOpenURL](Link)
 
 ---
 
@@ -37,11 +41,7 @@ Source:
     HTTPS URL Scheme:
         URL Sceme
 
-[Install Service](../../raw/master/mrreader-services/read-later-in-pinbook.mrreaderappconf)
-
-https://github.com/christopherdwhite/iosWorkflows/raw/master/mrreader-services/read-later-in-pinbook.mrreaderappconf
-
-To install this service you will need to open this page in Safari on your iPad and tap the **Install Service** link or save the file to an app like Dropbox that will let you choose what app 
+[Download Service](https://github.com/christopherdwhite/iosWorkflows/raw/master/mrreader-services/FILENAME.mrreaderappconf)
 
 ### Other App Service
 
@@ -54,6 +54,8 @@ To install this service you will need to open this page in Safari on your iPad a
         Standard Menu: On/Off
         Text Selection Menu: On/Off
         Link Menu: On/Off
+
+[Download Service](https://github.com/christopherdwhite/iosWorkflows/raw/master/mrreader-services/FILENAME.mrreaderappconf)
 
 ---
 
@@ -87,10 +89,20 @@ To install this service you will need to open this page in Safari on your iPad a
 
 ### Generic (Safari)
 
-### Google Chrome
+#### Bookmarklet
+
+```javascript
+bookmarklet
+```
+
+### Chrome
 
 ### Dolphin
 
+### iCab Mobile
+
 ### Mercury
 
-### iCab Mobile
+---
+
+## Requested Improvements for Developer
