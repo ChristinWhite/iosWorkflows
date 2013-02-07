@@ -2,6 +2,19 @@
 
 ## URL Scheme
 
+    pinbook://
+    pinbook://add?
+        url
+        title
+        tags (separated by spaces)
+        description
+        private (yes/no, default: no)
+        readlater (yes/no, default: no)
+
+Source: [Adding Bookmarks Using Pinbook's URL Scheme](http://help.albinadevelopment.com/kb/pinbook/adding-bookmarks-using-pinbooks-url-scheme)
+
+Note that this hasn't yet been updated to reflect Pinbook's x-callback-url changes. 
+
 ## Bookmarklets
 
 ### Open in Pinbook
