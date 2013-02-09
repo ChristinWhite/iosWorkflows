@@ -1,5 +1,7 @@
 # Pinbook
 
+*Improvements Coming Soon*
+
 ## URL Scheme
 
     pinbook://

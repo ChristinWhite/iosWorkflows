@@ -1,5 +1,7 @@
 # Things
 
+*Improvements Coming Soon*
+
 ## URL Scheme
 
     things:

@@ -1,34 +1,71 @@
 # Bang On
 
+[Official Site](http://kepner.me/apps/) • [iTunes Link](https://itunes.apple.com/us/app/bang-on-a-nice-search-app/id521507324?mt=8)
+
 ## URL Scheme
 
-    bang-on://
-    bang-on://?q=
+### Function
 
-## Bookmarklet: Launch (Official)
+    bang-on://
+        bang-on://?q=
+            bang-on://?q=Twitter
+
+[App Lookup](http://applookup.com/App/521507324)
+
+---
+
+## Launch Center Pro Actions
+
+### Search Bang On for \[clipboard\]
+
+*Coming Soon*
+
+### Search Bang On for \[prompt\]
+
+*Coming Soon*
+
+---
+
+## Mr. Reader Services
+
+### Other App Service: Search Bang On for Selection
+
+*Coming Soon*
+
+---
+
+## Drafts Actions
+
+### URL Action: Search Bang On for Title
+
+*Coming Soon*
+
+---
+
+## Bookmarklets
+
+### Generic (Safari)
+
+#### Launch Bang On (Official)
 
 ```javascript
 javascript:location.href='bang-on://'+location.href
 ```
 
-## Bookmarklet: Search for Selection
+#### Search Bang On for Selection
 
 ```javascript
 javascript:location.href='bang-on://?q='+encodeURIComponent(window.getSelection())
 ```
 
-## Reference
+#### Search Bang On for Selection with specific !bang
 
-I was curious why the developer @kepner added the '+location.href' to his bookmarklet and I wanted to double check the URL scheme.
+```javascript
+javascript:location.href='bang-on://?q='+encodeURIComponent(window.getSelection())+'%20'+'!bang'
+```
 
-@chrisWhite:
+Just replace *!bang* with the !bang you'd like to hard code into the bookmarklet.
 
-> @kepner I’m digging through the Bang On URL scheme & bookmarklet, does the ‘+location.href’ part do anything? Seems like it’s not used.
+#### Search Bang On for Selection & Prompt for specific !bang
 
-> @kepner bang-on:// to launch, bang-on://?q= to search, am I missing anything? Thanks!
-
-[Tweet 1](http://twitter.com/chrisWhite/status/296695444908695554) & [Tweet 2](http://twitter.com/chrisWhite/status/296695857393315841)
-
-@kepner's [reply:](https://twitter.com/kepner/status/296825551887429632)
-
-> @chrisWhite That´s it. The bookmark is designed to preserve your search query after launching Bang On, which is why it grabs location.href.
+*Coming Soon*

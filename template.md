@@ -1,6 +1,6 @@
 # App Name
 
-[iTunes Link](Link) • [Official Site](Link)
+[Official Site](Link) • [iTunes Link](Link)
 
 ## URL Scheme
 

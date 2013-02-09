@@ -1,5 +1,7 @@
 # Mercury
 
+*Improvements Coming Soon*
+
 ## URL Scheme
 
     merc://

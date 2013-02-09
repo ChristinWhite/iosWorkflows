@@ -1,5 +1,7 @@
 # Poster
 
+*Improvements Coming Soon*
+
 ## URL Scheme
 
 ## Bookmarklet: Send to Poster (by [Federico Viticci](http://www.macstories.net/news/poster-2-0/))

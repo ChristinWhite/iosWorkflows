@@ -1,5 +1,7 @@
 # Google Chrome
 
+*Improvements Coming Soon*
+
 ## URL Scheme
 
 http:
