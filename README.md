@@ -8,7 +8,7 @@ You can explore the different files to see different workflows for their respect
 
 I also decided to focus on learning JavaScript and working on bookmarklets before I move on to more complex [Pythonista](http://omz-software.com/pythonista/) scripts.
 
-The most complete set of workflows right now is [1Password](https://github.com/christopherdwhite/iosWorkflows/blob/master/1password.md) but I'm pretty stoked about some of the [Drafts](https://github.com/christopherdwhite/iosWorkflows/blob/master/drafts.md) & [Google Chrome](https://github.com/christopherdwhite/iosWorkflows/blob/master/googlechrome.md).
+The most complete set of workflows right now is [1Password](https://github.com/christopherdwhite/iosWorkflows/blob/master/1password.md) but I'm pretty stoked about some of the [Drafts](https://github.com/christopherdwhite/iosWorkflows/blob/master/drafts.md) & [Google Chrome](https://github.com/christopherdwhite/iosWorkflows/blob/master/googlechrome.md) bits too.
 
 ## The project
 
