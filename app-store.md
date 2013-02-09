@@ -66,7 +66,7 @@ I plan on doing more research on a better solution but wouldn't mind a shortcut!
         Text Selection Menu: On
         Link Menu: Off
 
-[Download Service](https://raw.github.com/christopherdwhite/iosWorkflows/master/mrreader-services/app-store.mrreaderbrowserconf)
+[Download Service](https://raw.github.com/christopherdwhite/iosWorkflows/master/mrreader-services/app-store.mrreaderappconf)
 
 ---
 
