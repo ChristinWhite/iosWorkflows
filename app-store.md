@@ -12,25 +12,9 @@ Default Apple App
     
     http://phobos.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=
 
+Note: Using the *itms-apps://* protocol will launch your search in the iOS App Store while using *http://* may launch the search in iTunes. One possible downside to using *itms-apps://* is that it will not work on OS X or Windows so for potentially cross-platform tools like Bookmarklets you either need to make it platform specific or build it to use the correct URL depending on the platform like I do in the bookmarklet below. If there's a better way of handling this I'd love to hear it!
+
 [handleOpenURL](http://handleopenurl.com/scheme/app-store)
-
-### Help!
-
-I'm still trying to figure out the best way to handle app store links and would appreciate suggestions.
-
-Launch Center Pro's preset uses this URL:
-
-    http://phobos.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=
-
-When you use it to search for an App it always opens the App Store.
-
-However, giving Bang On or a bookmarklet the same URL will cause the iTunes store to launch with the specified search some (or all) of the time. Bang On's developer [suggested](https://twitter.com/kepner/status/297177480417140737) the itms-app:// protocol instead:
-
-    itms-apps://phobos.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=
-
-This works fine for Bang On but it does have a disadvantage for bookmarklets because using the http:// URL in a bookmarklet on a Mac will launch iTunes with the search term but using itms-app:// instead won't. If you use the same bookmarks on both platforms either solution will (consistently) work on one platform or the other.
-
-I plan on doing more research on a better solution but wouldn't mind a shortcut!
 
 ---
 
@@ -91,23 +75,13 @@ Note: This action will search the App Store for whatever is on the first line of
 #### Search App Store for Selection
 
 ```javascript
-javascript:location.href='itms-apps://phobos.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term='+encodeURIComponent(window.getSelection());
+javascript:if(navigator.userAgent.match(/(iPhone|iPod|iPad)/i)){location.href='itms-apps://phobos.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term='+encodeURIComponent(window.getSelection());}else{location.href='http://phobos.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term='+encodeURIComponent(window.getSelection());}
 ```
 
-This bookmarklet doesn't play work on desktop browsers. You can use the following bookmarklet instead but it may open iTunes instead of the App Store on iOS devices, see the help note above for further information.
-
-```javascript
-javascript:location.href='http://phobos.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term='+encodeURIComponent(window.getSelection());
-```
+This bookmarklet also works on OS X (& probably Windows, haven't tested it yet).
 
 #### Search App Store for for...? Prompt
 
 ```javascript
-javascript:var%20search=window.prompt('Search%20App%20Store%20for...');location.href='itms-apps://phobos.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term='+encodeURIComponent(search);
-```
-
-This bookmarklet doesn't play work on desktop browsers. You can use the following bookmarklet instead but it may open iTunes instead of the App Store on iOS devices, see the help note above for further information.
-
-```javascript
-javascript:var%20search=window.prompt('Search%20App%20Store%20for...');location.href='http://phobos.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term='+encodeURIComponent(search);
+javascript:var%20search=window.prompt('Search%20App%20Store%20for...');if(navigator.userAgent.match(/(iPhone|iPod|iPad)/i)){location.href='itms-apps://phobos.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term='+encodeURIComponent(search);}else{location.href='http://phobos.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term='+encodeURIComponent(search);}
 ```
