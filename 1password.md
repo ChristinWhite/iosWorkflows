@@ -74,7 +74,7 @@ Documentation: [Official - Developers: Here’s how to add a little 1Password to
 
 *Note: This action will send 1Password whatever is on the first line of your draft.*
 
-This isn't ideal because you need to strip out the protocol manually since 1Password doesn't know what to do with a URL that still has the *http://* protocol included like this:
+This bookmarklet isn't ideal because you need to strip out the protocol manually since 1Password doesn't know what to do with a URL that still has the *http://* protocol included like this:
 
 *[ophttp://http://www.google.com](ophttp://http://www.google.com)*
 
