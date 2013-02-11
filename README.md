@@ -32,6 +32,6 @@ Which brings us to today. This project is the cumulation of my need to improve m
 
 ## A few things you need to know
 
-First, I'm just learning JavaScript (and soon Python) for this project; while doing things correctly is important to me I'm sure there are flaws in my code. If I'm not doing something as efficiently or validly as I could please feel free to point it out, I'd appreciate the feedback! The same goes for GitHub.
+First, I'm just learning JavaScript (and soon Python) for this project; doing things correctly is important to me but I'm sure there are flaws in my code. If you spot something that could be more effecient or more valid please feel free to point it out, I'd appreciate the feedback! The same goes with GitHub, I'm still learning my way around.
 
 Second, while I'm trying to document things as I go I'm assuming you at least have a basic knowledge of how URL schemes work and that you can figure out how to do things like creating a bookmarklet, or install a Mr. Reader service. I will write a better guide once I've filled out a few more of the workflows I want to create, if you run into trouble please add an issue send me a Tweet ([@chrisWhite](https://twitter.com/chrisWhite)) and I'll be happy to help.
