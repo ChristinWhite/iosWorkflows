@@ -4,7 +4,7 @@
 
 Thanks to Federico Viticci for [featuring this project](http://www.macstories.net/links/chris-whites-ios-workflows/) on MacStories, I couldn't be more excited since it was Federico's articles that inspired this project in the first place!
 
-## Hey there, you're early!
+## Hey there!
 
 Welcome to my iosWorkflows project, you're a little bit early but feel free to explore or even contribute! Just know that this is very much a work in progress.
 
