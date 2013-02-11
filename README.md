@@ -1,10 +1,14 @@
 # iosWorkflows
 
+## Featured on MacStories
+
+Thanks to Federico Viticci for [featuring this project](http://www.macstories.net/links/chris-whites-ios-workflows/) on MacStories, I couldn't be more excited since it was Federico's articles that inspired this project in the first place!
+
 ## Hey there, you're early!
 
 Welcome to my iosWorkflows project, you're a little bit early but feel free to explore or even contribute! Just know that this is very much a work in progress.
 
-You can explore the different files to see different workflows for their respective apps. Don't mind the *Coming Soon* messages, I've been adding new scripts and workflows every day and these represent the pieces I want to fill out before I start sharing the project with too many people. I also have a lot of other apps and ideas banging around in Evernote that I'll start working on once I get the current batch finished.
+You can explore the different files to see different workflows for their respective apps. Please don't mind the *Coming Soon* messages, I hadn't planned on announcing this until I filled in some of the blank spots but here you are.
 
 I also decided to focus on learning JavaScript and working on bookmarklets before I move on to more complex [Pythonista](http://omz-software.com/pythonista/) scripts.
 

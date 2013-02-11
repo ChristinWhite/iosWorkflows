@@ -4,7 +4,7 @@ Default Apple App
 
 ## URL Scheme
 
-### Function
+### Search App Store
 
     itms-apps://
         phobos.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=
