@@ -19,7 +19,7 @@ Note: Some or all of these workflows may not work on previous versions of 1Passw
     ophttps://
         ophttps://www.google.com
 
-Documentation: [Official: Developers: Here’s how to add a little 1Password to your iOS apps](http://blog.agilebits.com/2013/01/24/developers-heres-how-to-add-a-little-1password-to-your-ios-apps/) • [handleOpenURL](http://handleopenurl.com/scheme/1password)
+Documentation: [Official - Developers: Here’s how to add a little 1Password to your iOS apps](http://blog.agilebits.com/2013/01/24/developers-heres-how-to-add-a-little-1password-to-your-ios-apps/) • [handleOpenURL](http://handleopenurl.com/scheme/1password)
 
 ---
 
