@@ -78,7 +78,7 @@ This isn't ideal because you need to strip out the protocol manually since 1Pass
 
 *[ophttp://http://www.google.com](ophttp://http://www.google.com)*
 
-[Install Action](drafts://x-callback-url/import_action?type=URL&name=Open%20Link%20%28without%20protocol%29%20in%201Password&url=ophttp%3A%2F%2F%5B%5Btitle%5D%5D)[^1]
+[Install Action](drafts://x-callback-url/import_action?type=URL&name=Open%20Link%20%28without%20protocol%29%20in%201Password&url=ophttp%3A%2F%2F%5B%5Btitle%5D%5D)
 
 ---
 
@@ -172,5 +172,3 @@ If they were to do this you could setup a bookmarklet to open 1Password and sear
 Finally, it would be nice to have [ophttp://http:www.google.com](ophttp://http:www.google.com), [ophttps://https://www.google.com](ophttps://https://www.google.com) or even [ophttp://https://www.google.com](ophttps://https://www.google.com) work so that 'Open URL in 1Password' actions could be added to apps like Drafts that don't offer JavaScript (like a browser) or more advanced URL configurability (like Mr. Reader) to automatically strip away the *http://* protocol and replace it with *ophttp://.* [Mercury Browser](http://mercury-browser.com/) is a good example of this working.
 
 For a security centric application this would also help ensure that an users who may currently need to strip out the protocol wouldn't accidentally open an *https://* link as *http://*.
-
-[^1]: Still working on getting this to work properly.
