@@ -17,30 +17,6 @@ For now, I've included the usage based on my personal testing above.
 
 ---
 
-## Launch Center Pro Actions
-
-### Open \[Clipboard\] URL in Dolphin
-
-*Coming Soon*
-
----
-
-## Mr. Reader Services
-
-### Browser Service: Open in Dolphin
-
-*Coming Soon*
-
----
-
-## Drafts Actions
-
-### URL Action: Open in Dolphin
-
-*Coming Soon*
-
----
-
 ## Bookmarklets
 
 ### Generic (Safari)
@@ -64,11 +40,3 @@ if (location.href.substring(4,5) == 's') {
 ```
 
 *Caution*: This will open an https:// link in Dolphin but it will strip away the 's.' Unlike Mercury or Chrome [there isn't a way](http://twitter.com/DolphinCares/status/296874545028161536) to pass along an https link intact.
-
-### Chrome
-
-### Dolphin
-
-### iCab Mobile
-
-### Mercury

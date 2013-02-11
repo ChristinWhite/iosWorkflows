@@ -14,34 +14,6 @@
 
 ---
 
-## Launch Center Pro Actions
-
-### Search Bang On for \[clipboard\]
-
-*Coming Soon*
-
-### Search Bang On for \[prompt\]
-
-*Coming Soon*
-
----
-
-## Mr. Reader Services
-
-### Other App Service: Search Bang On for Selection
-
-*Coming Soon*
-
----
-
-## Drafts Actions
-
-### URL Action: Search Bang On for Title
-
-*Coming Soon*
-
----
-
 ## Bookmarklets
 
 ### Generic (Safari)
@@ -66,6 +38,3 @@ javascript:location.href='bang-on://?q='+encodeURIComponent(window.getSelection(
 
 Just replace *!bang* with the !bang you'd like to hard code into the bookmarklet.
 
-#### Search Bang On for Selection & Prompt for specific !bang
-
-*Coming Soon*

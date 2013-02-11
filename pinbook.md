@@ -21,24 +21,6 @@ Note that this hasn't yet been updated to reflect Pinbook's x-callback-url chang
 
 The private flag doesn't seem to be working at the moment, I've contacted the developer and am awaiting a response. 
 
-## Launch Center Pro
-
-### Bookmark Clipboard in Pinboard
-
-
-
-### Bookmark Clipboard in Pinbook with Tags Prompt
-
-
-
-### Bookmark Clipboard in Pinbook with Description Prompt
-
-
-
-### Bookmark Clipboard in Pinbook with Tags & Description Prompts
-
-
-
 ---
 
 ## Mr. Reader Services
@@ -52,7 +34,7 @@ The private flag doesn't seem to be working at the moment, I've contacted the de
 
 ### Add to Pinbook (Private)
 
-
+*Coming once the private issue is resolved.*
 
 ### Read Later in Pinbook
 
@@ -63,7 +45,7 @@ The private flag doesn't seem to be working at the moment, I've contacted the de
 
 ### Read Later in Pinbook (Private)
 
-
+*Coming once the private issue is resolved.*
 
 ---
 
@@ -78,7 +60,7 @@ Note: For all of these actions the URL must be on the first line in Drafts. Any 
 
 ### Add Link to Pinbook (Private)
 
-
+*Coming once the private issue is resolved.*
 
 ### Read Later in Pinbook
 
@@ -113,7 +95,7 @@ javascript:location.href='pinbook://x-callback-url/add?'+'url='+encodeURICompone
 
 ### Read Later in Pinbook (Private)
 
-
+*Coming once the private issue is resolved.*
 
 ---
 
@@ -127,7 +109,7 @@ javascript:location.href='pinbook://x-callback-url/add?'+'url='+encodeURICompone
 
 ### Open in Pinbook (Private) & Return to Dolphin
 
-
+*Coming once the private issue is resolved.*
 
 ### Read Later in Pinbook & Return to Dolphin
 
@@ -137,15 +119,7 @@ javascript:location.href='pinbook://x-callback-url/add?'+'url='+encodeURICompone
 
 ### Read Later in Pinbook (Private) & Return to Dolphin
 
----
-
-## Google Chrome Bookmarklets
-
----
-
-## Mercury Bookmarklets
-
----
+*Coming once the private issue is resolved.*
 
 ## Further Ideas
 

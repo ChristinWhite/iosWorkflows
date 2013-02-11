@@ -36,18 +36,6 @@ Note: There's also an undocumented scheme for importing Drafts actions, you can 
 
 ---
 
-## Launch Center Pro Actions
-
-*Coming Soon*
-
----
-
-## Mr. Reader Services
-
-*Coming Soon*
-
----
-
 ## Bookmarklets
 
 ### Generic (Safari)
@@ -72,14 +60,6 @@ if (window.getSelection() != '') {
     
 location.href = 'drafts://x-callback-url/create?text=[' + encodeURIComponent(document.title) + '](' + encodeURIComponent(location.href) + ')' + selected;
 ```
-
-#### Append to Scratch
-
-*Coming Soon*
-
-### Chrome
-
-*Coming Soon*
 
 ### Dolphin
 
@@ -106,11 +86,3 @@ location.href = 'drafts://x-callback-url/create?'
     + '&action=' + 'Append%20to%20Scratch&nbsp;'
     + '&x-success=' + 'dolphin://';
 ```
-
-### iCab Mobile
-
-*Coming Soon*
-
-### Mercury
-
-*Coming Soon*
