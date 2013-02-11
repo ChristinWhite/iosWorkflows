@@ -22,14 +22,16 @@ Drafts for iPhone:
 
 /Create
 
-    drafts://
-        x-callback-url/
-            create?
-                text
-                action
-                x-success
-                x-error
-                    drafts://x-callback-url/create?text=Drafts%20rocks&action=Append%20to%20Scratch
+```
+drafts://
+    x-callback-url/
+        create?
+            text
+            action
+            x-success
+            x-error
+                drafts://x-callback-url/create?text=Drafts%20rocks&action=Append%20to%20Scratch
+```
 
 Documentation: [Official: Drafts for Developers](http://agiletortoise.com/drafts-developers/) • [handleOpenURL](http://handleopenurl.com/scheme/drafts) • [App Lookup](http://applookup.com/App/502385074)
 
