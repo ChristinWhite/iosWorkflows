@@ -10,8 +10,6 @@ Welcome to my iosWorkflows project, you're a little bit early but feel free to e
 
 You can explore the different files to see different workflows for their respective apps. Please don't mind the *Coming Soon* messages, I hadn't planned on announcing this until I filled in some of the blank spots but here you are.
 
-I also decided to focus on learning JavaScript and working on bookmarklets before I move on to more complex [Pythonista](http://omz-software.com/pythonista/) scripts.
-
 The most complete set of workflows right now is [1Password](https://github.com/christopherdwhite/iosWorkflows/blob/master/1password.md) but I'm pretty stoked about some of the [Drafts](https://github.com/christopherdwhite/iosWorkflows/blob/master/drafts.md) & [Google Chrome](https://github.com/christopherdwhite/iosWorkflows/blob/master/googlechrome.md) bits too.
 
 ## The project
