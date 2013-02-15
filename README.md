@@ -1,8 +1,14 @@
 # iosWorkflows
 
-## Featured on MacStories
+## Featured on MacStories & Lifehacker
 
 Thanks to Federico Viticci for [featuring this project](http://www.macstories.net/links/chris-whites-ios-workflows/) on MacStories, I couldn't be more excited since it was Federico's articles that inspired this project in the first place!
+
+Also thanks to Thorin Klosowski for featuring iosWorkflows on [Lifehacker](http://lifehacker.com/5984522/ios-workflows-is-a-collection-of-ways-to-automate-data-sharing-in-ios)! 
+
+## Big push coming soon
+
+I've been working hard on a bunch of Pinbook updates as well as some restructuring and documentation to make the whole project easier to use.
 
 ## Hey there!
 
