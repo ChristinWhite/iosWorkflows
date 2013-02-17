@@ -10,12 +10,12 @@ For more ideas and workflows for use with Drafts check out Federico Viticci's Ma
 
 ### Function
 
-Drafts for iPad:
+Drafts for iPhone:
 
     drafts://
     x-drafts://
 
-Drafts for iPhone:
+Drafts for iPad:
 
     drafts://
     x-drafts-for-ipad://
