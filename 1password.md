@@ -89,10 +89,9 @@ This bookmarklet isn't ideal because you need to strip out the protocol manually
 #### Open in 1Password
 
 ```javascript
-javascript:location.href='ophttp'+location.href.substring(4);
+javascript:window.location='op'+(window.location.href);
 ```
-
-This bookmarklet is based on Jon Abrams' [Google Chrome Bookmarklet](http://blog.jonabrams.com/post/26099585134/open-in-chrome) for the substring trick.
+From the MacStories [post about 1Password 4.1](http://www.macstories.net/links/1password-4-1/).
 
 #### Search 1Password for Selection
 
