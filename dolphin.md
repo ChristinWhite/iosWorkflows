@@ -86,7 +86,9 @@ This URL action isn't ideal because you need to strip out the protocol manually 
     App Name: Dolphin Browser
     Protocol: dolphin:
     HTTP URL Scheme:
+
         dolphin://[URL-WITHOUT-PROTOCOL]
+
     HTTPS URL Scheme:
         dolphin://[URL-WITHOUT-PROTOCOL]
 
