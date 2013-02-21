@@ -4,6 +4,8 @@
 
 Just pushed a *huge* update. 
 
+Please let me know if you run into any trouble with the changes.
+
 Here are a few highlights:
 
 - New workflows and improvements throughout the project. Check out the [Pinbook](pinbook.md) workflows in particular.
