@@ -16,7 +16,7 @@ Which brings us to today. This project is the cumulation of my need to improve m
 
 ## A few things you should know
 
-First, I'm just learning JavaScript (and soon Python) for this project; doing things correctly is important to me but I'm sure there are flaws in my code. If you spot something that could be more effecient or more valid please feel free to point it out, I'd appreciate the feedback! The same goes with GitHub, I'm still learning my way around.
+First, I'm just learning JavaScript (and soon Python) for this project; doing things correctly is important to me but I'm sure there are flaws in my code. If you spot something that could be more efficient or more valid please feel free to point it out, I'd appreciate the feedback! The same goes with GitHub, I'm still learning my way around.
 
 Second, while I'm trying to document things as I go I'm hoping you are familiar with how URL schemes work and that you can figure out how to do things like creating a bookmarklet. I will continue adding to and improving the guide as quickly as possible, in the meantime if you run into trouble please add an issue or contact me and I'll be happy to help!
 
@@ -28,8 +28,12 @@ Feel free to contact me on Twitter [@iosWorkflows](http://www.twitter.com/iosWor
 
 ## About us
 
-This project was created by [Chris White](http://christopherdwhite.com), you can find me on Twitter [@chrisWhite](http://www.twitter.com/chrisWhite)
+This project was created by [Chris White](https://github.com/christopherdwhite). You can find Chris on [Twitter](http://www.twitter.com/chrisWhite)
 
-Other awesome contributors include: [charlietran](https://github.com/charlietran)
+Awesome contributors include: 
+
+[charlietran](https://github.com/charlietran) 
+
+[michaelx](https://github.com/michaelx)
 
 Want to get involved? Let me know!
