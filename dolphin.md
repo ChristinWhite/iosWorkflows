@@ -1,6 +1,7 @@
 # Dolphin
 
-[Official Site](http://dolphin-browser.com/) • [iTunes Link](http://itunes.apple.com/us/artist/mobotap-inc./id433626481)
+[Official Site](http://dolphin-browser.com/) • [iTunes Link](
+https://itunes.apple.com/us/app/dolphin-browser-for-ipad/id460812023?mt=8)
 
 ## Table of Contents
 
@@ -71,7 +72,9 @@ This URL action isn't ideal because you need to strip out the protocol manually 
 
 *[dolphin://http://www.google.com](dolphin://http://www.google.com)*
 
-[Install Action](drafts://x-callback-url/import_action?type=URL&name=Open%20Link%20%28without%20protocol%29%20in%20Dolphin&url=dolphin%3A%2F%2F%5B%5Btitle%5D%5D) • [Help](guide.md#installing-draft-actions)
+~~[Install Action](drafts://x-callback-url/import_action?type=URL&name=Open%20Link%20%28without%20protocol%29%20in%20Dolphin&url=dolphin%3A%2F%2F%5B%5Btitle%5D%5D) • [Help](guide.md#installing-draft-actions)~~ • Copy & paste this URL into the location bar:
+
+    drafts://x-callback-url/import_action?type=URL&name=Open%20Link%20%28without%20protocol%29%20in%20Dolphin&url=dolphin%3A%2F%2F%5B%5Btitle%5D%5D
 
 [Table of Contents ↩](#table-of-contents)
 
@@ -125,6 +128,8 @@ if (location.href.substring(4,5) == 's') {
 ```
 
 *Caution*: This will open an https:// link in Dolphin but it will strip away the 's.' Unlike Mercury or Chrome [there isn't a way](http://twitter.com/DolphinCares/status/296874545028161536) to pass along an https link intact.
+
+[Table of Contents ↩](#table-of-contents)
 
 ---
 

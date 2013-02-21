@@ -97,9 +97,9 @@ Just replace *!bang* with the !bang you'd like to hard code into the Action.
         bang-on://?q={[TEXT-SELECTED]}
     
     Visibility:
-        Standard Menu: On/Off
-        Text Selection Menu: On/Off
-        Link Menu: On/Off
+        Standard Menu: Off
+        Text Selection Menu: On
+        Link Menu: Off
 
 [Download Service](https://github.com/christopherdwhite/iosWorkflows/raw/master/mrreader-services/search-bang-on-for-selection.mrreaderappconf) • [Help](guide.md#installing-mr-reader-browser-and-other-app-services)
 
