@@ -164,10 +164,7 @@ Important Note: Bookmarklets that take advantage of your text selection work dif
 ```javascript
 javascript:window.location='op'+(window.location.href);
 ```
-<<<<<<< HEAD
-=======
 
->>>>>>> Structural update & new workflows for 1Password
 From the MacStories [post about 1Password 4.1](http://www.macstories.net/links/1password-4-1/).
 
 #### Search 1Password for Selection
