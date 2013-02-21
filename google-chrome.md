@@ -108,6 +108,7 @@ You must include *http://* or *https://* in the URL. *http://www.google.com*
 
     Name: Open Link (without protocol) in Chrome
     URL:
+
         googlechrome://[[title]]
 
 This action will send Drafts whatever is on the first line of your draft.
@@ -120,6 +121,7 @@ You must not include *http://* or *https://* in the URL. *www.google.com*
 
     Name: Open Link in Chrome & Return to Drafts
     URL:
+
         googlechrome-x-callback://x-callback-url/open/?url=[[title]]&x-source=Drafts&x-success=drafts://
 
 This action will send Chrome whatever is on the first line of your draft. When you're finished in Chrome you can use the Drafts button to return to Drafts.
@@ -141,8 +143,11 @@ You must include *http://* or *https://* in the URL. *http://www.google.com*
     App Name: Google Chrome
     Protocol: googlechrome:
     HTTP URL Scheme:
+ 
         googlechrome://[URL-WITHOUT-PROTOCOL]
+
     HTTPS URL Scheme:
+
         googlechromes://[URL-WITHOUT-PROTOCOL]
 
 Note: This service is built into Mr. Reader. I've included it here for completeness and as an example.
@@ -154,8 +159,11 @@ Note: This service is built into Mr. Reader. I've included it here for completen
     App Name: Open in Google Chrome & Return to Mr. Reader
     Protocol: googlechrome:
     HTTP URL Scheme:
+
         googlechrome-x-callback://x-callback-url/open/?url=[URL]&x-source=Mr.%20Reader&x-success=mrreader://
+
     HTTPS URL Scheme:
+
         googlechrome-x-callback://x-callback-url/open/?url=[URL]&x-source=Mr.%20Reader&x-success=mrreader://
 
 [Download Service](https://github.com/christopherdwhite/iosWorkflows/raw/master/mrreader-services/open-in-google-chrome-and-return-to-mr-reader.mrreaderbrowserconf) • [Help](guide.md#installing-mr-reader-browser-and-other-app-services)
