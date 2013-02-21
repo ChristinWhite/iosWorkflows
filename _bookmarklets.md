@@ -1,4 +1,23 @@
-# Bookmarklets for App Interactions
+# Bookmarklets
+
+## Table of Contents
+
+1. [App Interactions](#app-interactions)
+    1. [Safari (Generic)](#safari-generic)
+    1. [Safari (iOS)](#safari-ios)
+    1. [Things (Generic)](#things-generic)
+1. [Web Interactions](#web-interactions)
+    1. [Google Cache & Coral Cache](#google-cache-coral-cache)
+    1. [Bit.ly](#bitly)
+    1. [Search Site](#search-site)
+    1. [Send To & Social Sharing](#send-to-social-sharing)
+    1. [Save as PDF](#save-as-pdf)
+    1. [Reading](#reading)
+    1. [Web Development](#web-development)
+    
+---
+
+# App Interactions
 
 ## Safari (Generic)
 
@@ -21,6 +40,8 @@ javascript:var%20search=window.prompt('Search%20App%20Store%20for...');if(naviga
 ```
 javascript:window.location='googlechrome-x-callback://x-callback-url/open/?url='+encodeURIComponent(location.href)+'&x-source=Safari&x-success='+encodeURIComponent(location.href);
 ```
+
+[Table of Contents ↩](#table-of-contents)
 
 ---
 
@@ -53,8 +74,11 @@ if (window.getSelection() != '') {
     location.href = 'things:add?title=' + encodeURIComponent(document.title) + '&notes=' + encodeURIComponent(location.href) + selected;
 ```
 
+[Table of Contents ↩](#table-of-contents)
 
-# Bookmarklets for Web Interactions
+---
+
+# Web Interactions
 
 ## Google Cache & Coral Cache
 
@@ -70,6 +94,8 @@ javascript:location.href='http:/webcache.googleusercontent.com/search?q=cache:'+
 javascript:void((function(){location.href=location.href.replace(/^http%5C:%5C/%5C/([^%5C/%5C@]+)%5C/(?:)/,'http://'+'$1'.replace('%5C:','.')+'.nyud.net/');})())
 ```
 
+[Table of Contents ↩](#table-of-contents)
+
 ---
 
 ## Bit.ly
@@ -80,6 +106,8 @@ javascript:void((function(){location.href=location.href.replace(/^http%5C:%5C/%5
 javascript:(function()%20%7B%20var%20s%20=%20document.createElement(%22script%22);%20s.setAttribute(%22id%22,%20%22bitmark_js%22);%20s.setAttribute(%22type%22,%20%22text/javascript%22);%20s.setAttribute(%22src%22,%20%22//bitly.com/a/bitmarklet.js%22);%20(top.document.body%20%7C%7C%20top.document.getElementsByTagName(%22head%22)[0]).appendChild(s);%20%7D)();
 ```
 
+[Table of Contents ↩](#table-of-contents)
+
 ---
 
 ## Search Site
@@ -89,6 +117,8 @@ javascript:(function()%20%7B%20var%20s%20=%20document.createElement(%22script%22
 ```
 javascript:(function(){void(q=prompt('What are you looking for?',''));if(q)location.href='http://www.google.com/search?q=site%3A'+document.domain.replace('www.','')+'%20'+escape(q)})()
 ```
+
+[Table of Contents ↩](#table-of-contents)
 
 ---
 
@@ -130,6 +160,8 @@ javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttr
 javascript:var%20d=document,w=window,e=w.getSelection,k=d.getSelection,x=d.selection,s=(e?e():(k)?k():(x?x.createRange().text:0)),f='http://www.tumblr.com/share',l=d.location,e=encodeURIComponent,p='?v=3&u='+e(l.href)%20+'&t='+e(d.title)%20+'&s='+e(s),u=f+p;try%7Bif(!/%5E(.*%5C.)?tumblr%5B%5E.%5D*$/.test(l.host))throw(0);tstbklt();%7Dcatch(z)%7Ba%20=function()%7Bif(!w.open(u,'t','toolbar=0,resizable=0,status=1,width=450,height=430'))l.href=u;%7D;if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else%20a();%7Dvoid(0)
 ```
 
+[Table of Contents ↩](#table-of-contents)
+
 ---
 
 ## Save as PDF
@@ -139,6 +171,8 @@ javascript:var%20d=document,w=window,e=w.getSelection,k=d.getSelection,x=d.selec
 ```
 javascript:void(window.open('http://www.web2pdfconvert.com/convert.aspx?cURL='+escape(location.href)))
 ```
+
+[Table of Contents ↩](#table-of-contents)
 
 ---
 
@@ -155,6 +189,8 @@ javascript:function%20iptxt(){var%20d=document;try{if(!d.body)throw(0);window.lo
 ```
 javascript:javascript:%20function%20getSelText()%20%7Bvar%20txt%20=%20%27%27;if%20(window.getSelection)%20%7Btxt%20=%20window.getSelection();%7D%20else%20if(document.getSelection)%20%7Btxt%20=%20document.getSelection();%7D%20else%20if(document.selection)%20%7Btxt%20=%20document.selection.createRange().text;%7D%20else%20return%20%27%27;return%20txt;%7D;var%20q%20=%20getSelText();if%20(q%20!=%20%27%27)%20%7Bvar%20load%20=%20window.open(%27http://term.ly/%27%20+%20escape(q));%7Delse%20%7Balert(%22No%20text%20selected.%22);%7D
 ```
+
+[Table of Contents ↩](#table-of-contents)
 
 ---
 
@@ -179,3 +215,5 @@ javascript:(function(document) { window.open('data:text/html;charset=utf-8,' + e
 ```
 javascript:(function()%7Bdocument.body.appendChild(document.createElement('scr'+'ipt')).setAttribute('src',%20'http://chengyinliu.com/wf.js')%7D)();
 ```
+
+[Table of Contents ↩](#table-of-contents)
