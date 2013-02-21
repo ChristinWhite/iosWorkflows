@@ -214,7 +214,6 @@ location.href = 'drafts://x-callback-url/create?text=[' + encodeURIComponent(doc
 ```
 
 #### Append to Scratch via Drafts & Return to Safari
-Note: this requires that in the Drafts App, there is a Dropbox Action named "Append to Scratch".
 
 ```javascript
 javascript:if(window.getSelection()!=''){var%20selected=encodeURIComponent(window.getSelection());var%20selected='%250A%250A%253E%2520'+selected.replace(/%250A/g,'%250A%253E%2520');}else{var%20selected='';}location.href='drafts://x-callback-url/create?'+'text='+'['+encodeURIComponent(document.title)+']('+encodeURIComponent(location.href)+')'+selected+'&action='+'Append%20to%20Scratch'+'&x-success='+encodeURIComponent(location.href);
@@ -237,8 +236,6 @@ location.href = 'drafts://x-callback-url/create?'
     + '&action=' + 'Append%20to%20Scratch'
     + '&x-success=' + encodeURIComponent(location.href);
 ```
-
-#### Append to Scratch via Drafts
 
 ### Google Chrome
 
@@ -269,8 +266,6 @@ location.href = 'drafts://x-callback-url/create?'
 ### Dolphin
 
 #### Append to Scratch via Drafts & Return to Dolphin
-
-Note: this requires that in the Drafts App, there is a Dropbox Action named "Append to Scratch".
 
 ```javascript
 javascript:if(window.getSelection()!=''){var%20selected=encodeURIComponent(window.getSelection());var%20selected='%250A%250A%253E%2520'+selected.replace(/%250A/g,'%250A%253E%2520');}else{var%20selected='';}location.href='drafts://x-callback-url/create?'+'text='+'['+encodeURIComponent(document.title)+']('+encodeURIComponent(location.href)+')'+selected+'&action='+'Append%20to%20Scratch'+'&x-success='+'dolphin://';
