@@ -1,0 +1,1 @@
+{"StandardSharingMenu":true,"Id":"APP:::382498043.630946","TextSelectionSharingMenu":true,"Template":"pinbook://x-callback-url/add?url=[URL]&title={[TITLE]}&private=yes&description={[TEXT-SELECTED]}&x-success=mrreader://&x-cancel=mrreader://","Name":"Add to Pinbook (Private)","LinkSharingMenu":true,"Protocol":"pinbook:"}

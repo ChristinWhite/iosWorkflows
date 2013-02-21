@@ -1,0 +1,1 @@
+{"StandardSharingMenu":true,"Id":"APP:::382487106.175549","TextSelectionSharingMenu":true,"Template":"pinbook://x-callback-url/add?url=[URL]&title={[TITLE]}&private=yes&readlater=yes&description={[TEXT-SELECTED]}&x-success=mrreader://&x-cancel=mrreader://","Name":"Read Later in Pinbook (Private)","LinkSharingMenu":true,"Protocol":"pinbook:"}
