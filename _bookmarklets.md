@@ -7,7 +7,7 @@
     1. [Safari (iOS)](#safari-ios)
     1. [Things (Generic)](#things-generic)
 1. [Web Interactions](#web-interactions)
-    1. [Google Cache & Coral Cache](#google-cache-coral-cache)
+    1. [Google Cache & Coral Cache](#google-cache--coral-cache)
     1. [Bit.ly](#bitly)
     1. [Search Site](#search-site)
     1. [Send To & Social Sharing](#send-to-social-sharing)
