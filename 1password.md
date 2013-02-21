@@ -245,7 +245,7 @@ This bookmarklet combines the prior two, I thought it could be useful to have th
 
 ## Additional Ideas
 
-- A expanded bookmarklet that combines the [Search 1Password for Selection](#search-1password-for-selection-1) bookmarklet with [Search 1Password for...? If Empty Search for Domain.](search-1password-for-if-empty-search-for-domain) Selection > Prompt > Domain
+- A expanded bookmarklet that combines the [Search 1Password for Selection](#search-1password-for-selection-1) bookmarklet with [Search 1Password for...? If Empty Search for Domain.](search-1password-for-if-empty-search-for-domain). Selection > Prompt > Domain.
 
 [Table of Contents ↩](#table-of-contents)
 
