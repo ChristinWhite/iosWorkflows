@@ -1,0 +1,1 @@
+{"StandardSharingMenu":true,"Id":"APP:::383103424.042792","TextSelectionSharingMenu":true,"Template":"drafts://x-callback-url/create?text={[TITLE]\n\n[URL]\n\n[TEXT-SELECTED]}&action=Append%20to%20Scratch&x-success=mrreader://","Name":"Append to Scratch via Drafts","LinkSharingMenu":true,"Protocol":"drafts:"}

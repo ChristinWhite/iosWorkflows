@@ -1,0 +1,1 @@
+{"Name":"Open in Google Chrome & Return to Mr. Reader","HttpsTemplate":"googlechrome-x-callback://x-callback-url/open/?url=[URL]&x-source=Mr.%20Reader&x-success=mrreader://","Protocol":"googlechrome-x-callback:","HttpTemplate":"googlechrome-x-callback://x-callback-url/open/?url=[URL]&x-source=Mr.%20Reader&x-success=mrreader://","Id":"BROWSER:::382835402.875798"}

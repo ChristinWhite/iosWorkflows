@@ -1,5 +1,6 @@
 # iosWorkflows
 
+<<<<<<< HEAD
 ## Featured on MacStories & Lifehacker
 
 Thanks to Federico Viticci for [featuring this project](http://www.macstories.net/links/chris-whites-ios-workflows/) on MacStories, I couldn't be more excited since it was Federico's articles that inspired this project in the first place!
@@ -18,6 +19,8 @@ You can explore the different files to see different workflows for their respect
 
 The most complete set of workflows right now is [1Password](https://github.com/christopherdwhite/iosWorkflows/blob/master/1password.md) but I'm pretty stoked about some of the [Drafts](https://github.com/christopherdwhite/iosWorkflows/blob/master/drafts.md) & [Google Chrome](https://github.com/christopherdwhite/iosWorkflows/blob/master/googlechrome.md) bits too.
 
+=======
+>>>>>>> Test
 ## The project
 
 It seems like we've recently been seeing a ton of new ideas, clever tricks and tools for making users who are willing to dive into the deep-end more productive on our iOS devices through automation, seamless app communication and some really great shortcuts. This is a collection of bookmarklets, scripts and custom URL scheme actions that help bridge apps and manipulate the data you can send between them.
@@ -34,8 +37,22 @@ Like many of us who follow Apple related news and interact in Apple communities 
 
 Which brings us to today. This project is the cumulation of my need to improve my iOS workflow and to develop trusted systems; my goals to learn Python, JavaScript and more about coding side of development. It started out just for me and quickly outgrew the Markdown file I started with. When I realized I needed something more flexible this seemed like the perfect project to also learn GitHub with. Now I'm hoping this can be a useful resource to other people too and I would welcome anyone else who would like to contribute to it.
 
-## A few things you need to know
+## A few things you should know
 
 First, I'm just learning JavaScript (and soon Python) for this project; doing things correctly is important to me but I'm sure there are flaws in my code. If you spot something that could be more effecient or more valid please feel free to point it out, I'd appreciate the feedback! The same goes with GitHub, I'm still learning my way around.
 
-Second, while I'm trying to document things as I go I'm assuming you at least have a basic knowledge of how URL schemes work and that you can figure out how to do things like creating a bookmarklet, or installing a Mr. Reader service. I will write a better guide once I've filled out a few more of the workflows I want to create but in the meantime if you run into trouble please add an issue or send me a Tweet ([@chrisWhite](https://twitter.com/chrisWhite)) and I'll be happy to help.
+Second, while I'm trying to document things as I go I'm hoping you are familiar with how URL schemes work and that you can figure out how to do things like creating a bookmarklet. I will continue adding to and improving the guide as quickly as possible, in the meantime if you run into trouble please add an issue or contact me and I'll be happy to help!
+
+## Project updates & contact information
+
+Stay up to date on changes by starting this repository on GitHub or by following us on Twitter [@iosWorkflows](http://www.twitter.com/iosWorkflows)
+
+Feel free to contact me on Twitter [@iosWorkflows](http://www.twitter.com/iosWorkflows) or [send an email](mailto:iosworkflows@christopherdwhite.com).
+
+## About us
+
+This project was created by [Chris White](http://christopherdwhite.com), you can find me on Twitter [@chrisWhite](http://www.twitter.com/chrisWhite)
+
+Other awesome contributors include: [charlietran](https://github.com/charlietran)
+
+Want to get involved? Let me know!
