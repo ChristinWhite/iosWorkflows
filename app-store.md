@@ -130,7 +130,7 @@ Important Note: Bookmarklets that take advantage of your text selection work dif
 javascript:if(navigator.userAgent.match(/(iPhone|iPod|iPad)/i)){location.href='itms-apps://phobos.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term='+encodeURIComponent(window.getSelection());}else{location.href='http://phobos.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term='+encodeURIComponent(window.getSelection());}
 ```
 
-This bookmarklet also works on OS X (& probably Windows, haven't tested it yet).
+This bookmarklet also works correctly on OS X (& probably Windows, haven't tested it yet).
 
 #### Search App Store for...? Prompt
 
