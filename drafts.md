@@ -33,20 +33,12 @@ For more ideas and workflows for use with Drafts check out Federico Viticci's Ma
     drafts://
     x-drafts-for-ipad://
 
-<<<<<<< HEAD
-Drafts for iPhone:
-=======
 ### Drafts for iPhone
->>>>>>> Test
 
     drafts://
     x-drafts://
 
-<<<<<<< HEAD
-Drafts for iPad:
-=======
 ### Create
->>>>>>> Test
 
     drafts://
         x-callback-url/
@@ -221,7 +213,6 @@ if (window.getSelection() != '') {
 location.href = 'drafts://x-callback-url/create?text=[' + encodeURIComponent(document.title) + '](' + encodeURIComponent(location.href) + ')' + selected;
 ```
 
-<<<<<<< HEAD
 #### Append to Scratch via Drafts & Return to Safari
 Note: this requires that in the Drafts App, there is a Dropbox Action named "Append to Scratch".
 
@@ -247,8 +238,6 @@ location.href = 'drafts://x-callback-url/create?'
     + '&x-success=' + encodeURIComponent(location.href);
 ```
 
-
-=======
 #### Append to Scratch via Drafts
 
 ### Google Chrome
@@ -256,13 +245,31 @@ location.href = 'drafts://x-callback-url/create?'
 #### Append to Scratch via Drafts & Return to Chrome
 
 ```javascript
-bookmarklet
+javascript:if(window.getSelection()!=''){var%20selected=encodeURIComponent(window.getSelection());var%20selected='%250A%250A%253E%2520'+selected.replace(/%250A/g,'%250A%253E%2520');}else{var%20selected='';}location.href='drafts://x-callback-url/create?'+'text='+'['+encodeURIComponent(document.title)+']('+encodeURIComponent(location.href)+')'+selected+'&action='+'Append%20to%20Scratch'+'&x-success='+'googlechrome://://';
 ```
 
->>>>>>> Test
+Expanded:
+
+```javascript
+javascript:
+
+if (window.getSelection() != '') {
+    var selected = encodeURIComponent(window.getSelection());
+    var selected = '%250A%250A%253E%2520' + selected.replace(/%250A/g,'%250A%253E%2520');
+} else {
+    var selected='';
+}
+    
+location.href = 'drafts://x-callback-url/create?'
+    + 'text=' + '[' + encodeURIComponent(document.title) + '](' + encodeURIComponent(location.href) + ')' + selected
+    + '&action=' + 'Append%20to%20Scratch'
+    + '&x-success=' + 'googlechrome://://';
+```
+
 ### Dolphin
 
 #### Append to Scratch via Drafts & Return to Dolphin
+
 Note: this requires that in the Drafts App, there is a Dropbox Action named "Append to Scratch".
 
 ```javascript
