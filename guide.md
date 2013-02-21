@@ -30,7 +30,7 @@ One thing you may notice about these actions is that they often have extra long 
 
 ~~To install Drafts actions simple browser the workflow page with the action you want in a browser on your iOS device and tap **Install Action.** Drafts must already be installed.~~
 
-For some reason, this isn't working as an link, when you tap on it, nothing happens. However, if you copy and paste the URL into the address bar it works as expected. I've contacted the developer and am awaiting a reply.
+For some reason, this isn't working as an link, when you tap on it, nothing happens. However, if you copy and paste the URL into the address bar it works as expected. I'm going to contact the developer and will update the guide and workflows once I've received a reply.
 
 [Table of Contents ↩](#table-of-contents)
 
@@ -42,7 +42,7 @@ Installing Mr. Reader services is fairly easy but takes a couple of steps. Unlik
 
 What you need to do is download the files into an iPad app that will let you choose how you want to open the file so you can then specify Mr. Reader. Mr. Reader must be installed before you can open the file.
 
-I've outlined two ways to do it, hopefully you can use them as a starting point to adapt to your most convient workflow.
+I've outlined two ways to do it, hopefully you can use them as a starting point to adapt to your most convenient workflow.
 
 ### Use Dropbox
 
