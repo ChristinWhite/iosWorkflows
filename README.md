@@ -30,10 +30,9 @@ Feel free to contact me on Twitter [@iosWorkflows](http://www.twitter.com/iosWor
 
 This project was created by [Chris White](https://github.com/christopherdwhite). You can find Chris on [Twitter](http://www.twitter.com/chrisWhite)
 
-Awesome contributors include: 
+Awesome contributors:
 
-[charlietran](https://github.com/charlietran) 
-
-[michaelx](https://github.com/michaelx)
+- [charlietran](https://github.com/charlietran) 
+- [michaelx](https://github.com/michaelx)
 
 Want to get involved? Let me know!
