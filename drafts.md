@@ -114,7 +114,7 @@ I like having two line breaks before the horizontal rule before the appended tex
 
 > Whatever's already in the file. For instance, I leave an Append heading at the end of the file so I can quickly *fold* everything I've added to the file from Drafts.
 >
-> # Append
+> \# Append
 > 
 > 
 > ---
