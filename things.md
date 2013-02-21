@@ -99,6 +99,7 @@ Note: Drafts has a *Send to Things* action built in that takes whatever is in yo
 
     Name: Send to Things with Notes
     URL:
+
         things:add?title=[[title]]&notes=[[body]]
 
 This action will send the first line of your draft to Things as the task title and will send any following lines as the task notes.
@@ -109,6 +110,7 @@ This action will send the first line of your draft to Things as the task title a
 
     Name: Send to Things with Notes
     URL:
+
         things:add?title=[[title]]&dueDate=[[body]]
 
 This action will send the first line of your draft to Things as the task title and will send any following lines as the task dueDate. 
@@ -147,6 +149,7 @@ Each of these are invalid and Things will give you an error:
     App Name: Things
     Protocol: things:
     URL Scheme Template:
+
         things:add?title={[TITLE])&notes={[URL]}
     
     Visibility:
@@ -163,6 +166,7 @@ Note: This service is built into Mr. Reader. I've included it here for completen
     App Name: Things (with selection)
     Protocol: things:
     URL Scheme Template:
+
         things:add?title={[TITLE])&notes={[URL]}%0A%0A%3E%20{[TEXT-SELECTED]}
     
     Visibility:
