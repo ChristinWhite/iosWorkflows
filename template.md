@@ -88,7 +88,9 @@ Documentation: [Official](Link) • [handleOpenURL](Link) • [App Lookup](Link)
     Name:
     Path: 
     File: Timestamp / First Line / Predefined
+
         File Name
+
     Ext: 
     Write: Create / Prepend / Append
     Template:
@@ -109,8 +111,11 @@ Documentation: [Official](Link) • [handleOpenURL](Link) • [App Lookup](Link)
     App Name:
     Protocol:
     HTTP URL Scheme:
+
         URL Sceme
+
     HTTPS URL Scheme:
+
         URL Sceme
 
 [Download Service](https://github.com/christopherdwhite/iosWorkflows/raw/master/mrreader-services/FILENAME.mrreaderbrowserconf) • [Help](guide.md#installing-mr-reader-browser-and-other-app-services)
@@ -122,6 +127,7 @@ Documentation: [Official](Link) • [handleOpenURL](Link) • [App Lookup](Link)
     App Name:
     Protocol:
     URL Scheme Template:
+
         URL Scheme
     
     Visibility:
