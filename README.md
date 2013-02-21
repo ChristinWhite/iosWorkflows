@@ -1,26 +1,3 @@
-# iosWorkflows
-
-<<<<<<< HEAD
-## Featured on MacStories & Lifehacker
-
-Thanks to Federico Viticci for [featuring this project](http://www.macstories.net/links/chris-whites-ios-workflows/) on MacStories, I couldn't be more excited since it was Federico's articles that inspired this project in the first place!
-
-Also thanks to Thorin Klosowski for featuring iosWorkflows on [Lifehacker](http://lifehacker.com/5984522/ios-workflows-is-a-collection-of-ways-to-automate-data-sharing-in-ios)! 
-
-## Big push coming soon
-
-I've been working hard on a bunch of Pinbook updates as well as some restructuring and documentation to make the whole project easier to use.
-
-## Hey there!
-
-Welcome to my iosWorkflows project, you're a little bit early but feel free to explore or even contribute! Just know that this is very much a work in progress.
-
-You can explore the different files to see different workflows for their respective apps. Please don't mind the *Coming Soon* messages, I hadn't planned on announcing this until I filled in some of the blank spots but here you are.
-
-The most complete set of workflows right now is [1Password](https://github.com/christopherdwhite/iosWorkflows/blob/master/1password.md) but I'm pretty stoked about some of the [Drafts](https://github.com/christopherdwhite/iosWorkflows/blob/master/drafts.md) & [Google Chrome](https://github.com/christopherdwhite/iosWorkflows/blob/master/googlechrome.md) bits too.
-
-=======
->>>>>>> Test
 ## The project
 
 It seems like we've recently been seeing a ton of new ideas, clever tricks and tools for making users who are willing to dive into the deep-end more productive on our iOS devices through automation, seamless app communication and some really great shortcuts. This is a collection of bookmarklets, scripts and custom URL scheme actions that help bridge apps and manipulate the data you can send between them.
