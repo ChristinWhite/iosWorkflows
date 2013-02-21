@@ -27,7 +27,7 @@
 
 Documentation: [handleOpenURL](http://handleopenurl.com/scheme/dolphin-browser)
 
-Note: I believe the information on the handleOpenURL link is incorrect. Including the *http://* in the URL scheme result in Dolphin trying to load *http://http://dolphin-browser.com* and Dolphin doesn't seem to like the double protocol. I've pinged the developer to double check it.
+Note: I believe the information on the handleOpenURL link is incorrect. Including the *http://* in the URL scheme result in Dolphin trying to load *[http://http://dolphin-browser.com](http://http://dolphin-browser.com)* and Dolphin doesn't seem to like the double protocol. I've pinged the developer to double check it.
 
 [Table of Contents ↩](#table-of-contents)
 
