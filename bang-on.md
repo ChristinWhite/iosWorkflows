@@ -78,6 +78,8 @@ Just replace *!bang* with the !bang you'd like to hard code into the Action.
 
 ~~[Install Action](drafts://x-callback-url/import_action?type=URL&name=Search%20Bang%20On%20for%20Title&url=bang-on%3A%2F%2F%3Fq%3D%5B%5Btitle%5D%5D) • [Help](guide.md#installing-draft-actions)~~ • Copy & paste this URL into the location bar:
 
+Why isn't this working
+
     drafts://x-callback-url/import_action?type=URL&name=Search%20Bang%20On%20for%20Title&url=bang-on%3A%2F%2F%3Fq%3D%5B%5Btitle%5D%5D
 
 [Table of Contents ↩](#table-of-contents)
