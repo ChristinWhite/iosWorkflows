@@ -121,6 +121,7 @@ Note: For all of these actions the URL must be on the first line in Drafts. All 
 
     Name: Add Link to Pinbook
     URL:
+
         pinbook://x-callback-url/add?url=[[title]]&description=[[body]]&x-success=drafts://&x-cancel=drafts://
 
 [Install Action](drafts://x-callback-url/import_action?type=URL&name=Add%20Link%20to%20Pinbook&url=pinbook%3A%2F%2Fx-callback-url%2Fadd%3Furl%3D%5B%5Btitle%5D%5D%26description%3D%5B%5Bbody%5D%5D%26x-success%3Ddrafts%3A%2F%2F%26x-cancel%3Ddrafts%3A%2F%2F) • [Help](guide.md#installing-drafts-actions)
@@ -129,6 +130,7 @@ Note: For all of these actions the URL must be on the first line in Drafts. All 
 
     Name: Add Link to Pinbook (Private)
     URL:
+
         pinbook://x-callback-url/add?url=[[title]]&description=[[body]]&x-success=drafts://&x-cancel=drafts://
 
 [Install Action](drafts://x-callback-url/import_action?type=URL&name=Add%20Link%20to%20Pinbook%20%28Private%29&url=pinbook%3A%2F%2Fx-callback-url%2Fadd%3Furl%3D%5B%5Btitle%5D%5D%26private%3Dyes%26description%3D%5B%5Bbody%5D%5D%26x-success%3Ddrafts%3A%2F%2F%26x-cancel%3Ddrafts%3A%2F%2F) • [Help](guide.md#installing-drafts-actions)
@@ -137,6 +139,7 @@ Note: For all of these actions the URL must be on the first line in Drafts. All 
 
     Name: Read Link Later in Pinbook
     URL:
+
         pinbook://x-callback-url/add?url=[[title]]&readlater=yes&description=[[body]]&x-success=drafts://&x-cancel=drafts://
 
 [Install Action](drafts://x-callback-url/import_action?type=URL&name=Read%20Link%20Later%20in%20Pinbook&url=pinbook%3A%2F%2Fx-callback-url%2Fadd%3Furl%3D%5B%5Btitle%5D%5D%26readlater%3Dyes%26description%3D%5B%5Bbody%5D%5D%26x-success%3Ddrafts%3A%2F%2F%26x-cancel%3Ddrafts%3A%2F%2F) • [Help](guide.md#installing-drafts-actions)
@@ -145,6 +148,7 @@ Note: For all of these actions the URL must be on the first line in Drafts. All 
 
     Name: Read Link Later in Pinbook (Private)
     URL:
+
         pinbook://x-callback-url/add?url=[[title]]&private=yes&readlater=yes&description=[[body]]&x-success=drafts://&x-cancel=drafts://
 
 [Install Action](drafts://x-callback-url/import_action?type=URL&name=Read%20Link%20Later%20in%20Pinbook%20%28Private%29&url=pinbook%3A%2F%2Fx-callback-url%2Fadd%3Furl%3D%5B%5Btitle%5D%5D%26private%3Dyes%26readlater%3Dyes%26description%3D%5B%5Bbody%5D%5D%26x-success%3Ddrafts%3A%2F%2F%26x-cancel%3Ddrafts%3A%2F%2F) • [Help](guide.md#installing-drafts-actions)
@@ -162,6 +166,7 @@ Note: For all of these actions the URL must be on the first line in Drafts. All 
     App Name: Add to Pinbook
     Protocol: pinbook:
     URL Scheme Template:
+ 
         pinbook://x-callback-url/add?url=[URL]&title={[TITLE]}&description={[TEXT-SELECTED]}&x-success=mrreader://&x-cancel=mrreader://
     
     Visibility:
@@ -176,6 +181,7 @@ Note: For all of these actions the URL must be on the first line in Drafts. All 
     App Name: Add to Pinbook (Private)
     Protocol: pinbook:
     URL Scheme Template:
+
         pinbook://x-callback-url/add?url=[URL]&title={[TITLE]}&private=yes&description={[TEXT-SELECTED]}&x-success=mrreader://&x-cancel=mrreader://
     
     Visibility:
@@ -190,6 +196,7 @@ Note: For all of these actions the URL must be on the first line in Drafts. All 
     App Name: Read Later in Pinbook
     Protocol: pinbook:
     URL Scheme Template:
+
         pinbook://x-callback-url/add?url=[URL]&title={[TITLE]}&readlater=yes&description={[TEXT-SELECTED]}&x-success=mrreader://&x-cancel=mrreader://
     
     Visibility:
@@ -204,6 +211,7 @@ Note: For all of these actions the URL must be on the first line in Drafts. All 
     App Name: Read Later in Pinbook (Private)
     Protocol: pinbook:
     URL Scheme Template:
+
         pinbook://x-callback-url/add?url=[URL]&title={[TITLE]}&private=yes&readlater=yes&description={[TEXT-SELECTED]}&x-success=mrreader://&x-cancel=mrreader://
     
     Visibility:
