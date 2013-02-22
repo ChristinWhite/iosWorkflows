@@ -32,7 +32,7 @@ This project was created by [Chris White](https://github.com/christopherdwhite).
 
 Awesome contributors:
 
-- [charlietran](https://github.com/charlietran) 
-- [michaelx](https://github.com/michaelx)
+- [Charlie Tran](https://github.com/charlietran) 
+- [Michael Xander](https://github.com/michaelx)
 
 Want to get involved? Let me know!
