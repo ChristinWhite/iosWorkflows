@@ -17,6 +17,7 @@ Like this whole project this guide is a work in progress, I'll be filling in mor
     1. [iCab Mobile (iPad)](#icab-mobile-ipad)
     1. [iCab Mobile (iPhone)](#icab-mobile-iphone)
     1. [Mercury](#mercury)
+1. [Collaboration Guide](#collaboration-guide)
 
 ---
 
@@ -136,5 +137,27 @@ I'm going to look into this a little further though, tapping the bookmarks butto
     window.getSelection()
 
 But it might support a different method for getting the selection.
+
+[Table of Contents ↩](#table-of-contents)
+
+---
+
+## Collaboration Guide
+
+If you'd like to get involved I would welcome your help! 
+
+There are two ways you can get started. You can [Contact Me](README.md#project-updates--contact-information) and let me know you'd like to help (please include your GitHub username) or you can fork the project with your own changes and I'll add you to the team.
+
+Also let me know if there's a website and/or social links like Twitter that you'd like included in the contributors section of the [README](README.md#about-us)
+
+I have a couple of guidelines I'd like to have you keep in mind once you start contributing.
+
+1. Always include attribution information.
+    
+    If you add a workflow that someone else made or please add proper attribution with a source link. If it's at all complex — like a Pythonista script or an complicated bookmarklet — please get their permission before you add it.
+1. Stay organized, use the template and follow project conventions.
+1. Test your workflows before you hit commit wherever possible.
+1. If you see a problem feel free to fix it but please include details about what and why you made the correction.
+1. If you have any suggestions about the project, its structure or any other feedback please let me know! While I hope this can be a valuable resource for others it began as a simple learning project.
 
 [Table of Contents ↩](#table-of-contents)
