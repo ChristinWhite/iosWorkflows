@@ -240,6 +240,8 @@ javascript:location.href='pinbook://x-callback-url/add?'+'url='+encodeURICompone
 javascript:location.href='pinbook://x-callback-url/add?'+'url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title)+'&readlater=yes'+'&private=yes'+'&description='+encodeURIComponent(window.getSelection())+'&x-success=googlechrome://'+'&x-cancel=googlechrome://';
 ```
 
+[Table of Contents ↩](#table-of-contents)
+
 ---
 
 ## Safari
