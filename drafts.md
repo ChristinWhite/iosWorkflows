@@ -1,6 +1,7 @@
 # Drafts
 
-[Official Site](http://agiletortoise.com/drafts/) • iTunes Link: [iPad](https://itunes.apple.com/us/app/drafts-for-ipad/id542797283?mt=8) & [iPhone](https://itunes.apple.com/us/app/drafts-for-ipad/id542797283?mt=8)
+[Official Site](http://agiletortoise.com/drafts/) • iTunes Link: [iPad](https://itunes.apple.com/us/app/drafts-for-ipad/id542797283?mt=8) & [iPhone](
+https://itunes.apple.com/us/app/drafts/id502385074?mt=8)
 
 Drafts URL scheme support is **Amazing** and is a fantastic benchmark to compare other apps' to. Not that this should be a surprise given that Greg Pierce of Agile Tortoise [wrote the spec](http://x-callback-url.com/about/) for [x-callback-url](http://x-callback-url.com/).
 
@@ -132,7 +133,9 @@ I like having two line breaks before the horizontal rule before the appended tex
 
 This is also easy to change, especially since Drafts will take care of the URL encoding for you.
 
-[Install Action](drafts://x-callback-url/import_action?type=dropbox&name=Append%20to%20Scratch&path=%2FDrafts%2F&filenametype=2&filename=Scratch&ext=ft&writetype=2&template=%0A%0A---%0A%0A%5B%5Bdraft%5D%5D%0A%0A%5B%5Btime_long%5D%5D) • [Help](guide.md#installing-drafts-actions)
+~~[Install Action](drafts://x-callback-url/import_action?type=dropbox&name=Append%20to%20Scratch&path=%2FDrafts%2F&filenametype=2&filename=Scratch&ext=ft&writetype=2&template=%0A%0A---%0A%0A%5B%5Bdraft%5D%5D%0A%0A%5B%5Btime_long%5D%5D) • [Help](guide.md#installing-drafts-actions)~~ • Copy & paste this URL into the location bar:
+
+    drafts://x-callback-url/import_action?type=dropbox&name=Append%20to%20Scratch&path=%2FDrafts%2F&filenametype=2&filename=Scratch&ext=ft&writetype=2&template=%0A%0A---%0A%0A%5B%5Bdraft%5D%5D%0A%0A%5B%5Btime_long%5D%5D
 
 [Table of Contents ↩](#table-of-contents)
 
@@ -147,6 +150,7 @@ This is also easy to change, especially since Drafts will take care of the URL e
     App Name: Drafts
     Protocol: drafts:
     URL Scheme Template:
+
         drafts://x-calback-url/create?text={[TITLE]
         
         [URL]
@@ -154,9 +158,9 @@ This is also easy to change, especially since Drafts will take care of the URL e
         [TEXT-SELECTED]}
     
     Visibility:
-        Standard Menu: On/Off
-        Text Selection Menu: On/Off
-        Link Menu: On/Off
+        Standard Menu: On
+        Text Selection Menu: On
+        Link Menu: On
 
 Note: This service is built into Mr. Reader. I've included it here for completeness and as an example.
 
@@ -167,6 +171,7 @@ Note: This service is built into Mr. Reader. I've included it here for completen
     App Name: Drafts
     Protocol: drafts:
     URL Scheme Template:
+
         drafts://x-calback-url/create?text={[TITLE]
         
         [URL]
@@ -174,9 +179,9 @@ Note: This service is built into Mr. Reader. I've included it here for completen
         [TEXT-SELECTED]}&action=Append%20to%20Scratch&x-success=mrreader://
     
     Visibility:
-        Standard Menu: On/Off
-        Text Selection Menu: On/Off
-        Link Menu: On/Off
+        Standard Menu: On
+        Text Selection Menu: On
+        Link Menu: On
 
 Note: This service is built into Mr. Reader. I've included it here for completeness and as an example.
 
@@ -213,7 +218,7 @@ if (window.getSelection() != '') {
 location.href = 'drafts://x-callback-url/create?text=[' + encodeURIComponent(document.title) + '](' + encodeURIComponent(location.href) + ')' + selected;
 ```
 
-#### Append to Scratch via Drafts & Return to Safari
+#### Append to Scratch via Drafts
 
 ```javascript
 javascript:if(window.getSelection()!=''){var%20selected=encodeURIComponent(window.getSelection());var%20selected='%250A%250A%253E%2520'+selected.replace(/%250A/g,'%250A%253E%2520');}else{var%20selected='';}location.href='drafts://x-callback-url/create?'+'text='+'['+encodeURIComponent(document.title)+']('+encodeURIComponent(location.href)+')'+selected+'&action='+'Append%20to%20Scratch'+'&x-success='+encodeURIComponent(location.href);
@@ -237,12 +242,37 @@ location.href = 'drafts://x-callback-url/create?'
     + '&x-success=' + encodeURIComponent(location.href);
 ```
 
+### Safari
+
+#### Append to Scratch via Drafts & Return to Safari
+
+```javascript
+javascript:if(window.getSelection()!=''){var%20selected=encodeURIComponent(window.getSelection());var%20selected='%250A%250A%253E%2520'+selected.replace(/%250A/g,'%250A%253E%2520');}else{var%20selected='';}location.href='drafts://x-callback-url/create?'+'text='+'['+encodeURIComponent(document.title)+']('+encodeURIComponent(location.href)+')'+selected+'&action='+'Append%20to%20Scratch';
+```
+
+Expanded:
+
+```javascript
+javascript:
+
+if (window.getSelection() != '') {
+    var selected = encodeURIComponent(window.getSelection());
+    var selected = '%250A%250A%253E%2520' + selected.replace(/%250A/g,'%250A%253E%2520');
+} else {
+    var selected='';
+}
+    
+location.href = 'drafts://x-callback-url/create?'
+    + 'text=' + '[' + encodeURIComponent(document.title) + '](' + encodeURIComponent(location.href) + ')' + selected
+    + '&action=' + 'Append%20to%20Scratch';
+```
+
 ### Google Chrome
 
 #### Append to Scratch via Drafts & Return to Chrome
 
 ```javascript
-javascript:if(window.getSelection()!=''){var%20selected=encodeURIComponent(window.getSelection());var%20selected='%250A%250A%253E%2520'+selected.replace(/%250A/g,'%250A%253E%2520');}else{var%20selected='';}location.href='drafts://x-callback-url/create?'+'text='+'['+encodeURIComponent(document.title)+']('+encodeURIComponent(location.href)+')'+selected+'&action='+'Append%20to%20Scratch'+'&x-success='+'googlechrome://://';
+javascript:if(window.getSelection()!=''){var%20selected=encodeURIComponent(window.getSelection());var%20selected='%250A%250A%253E%2520'+selected.replace(/%250A/g,'%250A%253E%2520');}else{var%20selected='';}location.href='drafts://x-callback-url/create?'+'text='+'['+encodeURIComponent(document.title)+']('+encodeURIComponent(location.href)+')'+selected+'&action='+'Append%20to%20Scratch'+'&x-success='+'googlechrome://';
 ```
 
 Expanded:
@@ -260,7 +290,7 @@ if (window.getSelection() != '') {
 location.href = 'drafts://x-callback-url/create?'
     + 'text=' + '[' + encodeURIComponent(document.title) + '](' + encodeURIComponent(location.href) + ')' + selected
     + '&action=' + 'Append%20to%20Scratch'
-    + '&x-success=' + 'googlechrome://://';
+    + '&x-success=' + 'googlechrome://';
 ```
 
 ### Dolphin
@@ -320,7 +350,7 @@ location.href = 'drafts://x-callback-url/create?'
 #### Append to Scratch via Drafts & Return to Mercury
 
 ```javascript
-javascript:if(window.getSelection()!=''){var%20selected=encodeURIComponent(window.getSelection());var%20selected='%250A%250A%253E%2520'+selected.replace(/%250A/g,'%250A%253E%2520');}else{var%20selected='';}location.href='drafts://x-callback-url/create?'+'text='+'['+encodeURIComponent(document.title)+']('+encodeURIComponent(location.href)+')'+selected+'&action='+'Append%20to%20Scratch'+'&x-success='+'merc://';
+javascript:if(window.getSelection()!=''){var%20selected=encodeURIComponent(window.getSelection());var%20selected='%250A%250A%253E%2520'+selected.replace(/%250A/g,'%250A%253E%2520');}else{var%20selected='';}location.href='drafts://x-callback-url/create?'+'text='+'['+encodeURIComponent(document.title)+']('+encodeURIComponent(location.href)+')'+selected+'&action='+'Append%20to%20Scratch'+'&x-success='+'merc://'+encodeURIComponent(location.href);
 ```
 
 Expanded:
@@ -338,7 +368,7 @@ if (window.getSelection() != '') {
 location.href = 'drafts://x-callback-url/create?'
     + 'text=' + '[' + encodeURIComponent(document.title) + '](' + encodeURIComponent(location.href) + ')' + selected
     + '&action=' + 'Append%20to%20Scratch'
-    + '&x-success=' + 'merc://';
+    + '&x-success=' + 'merc://' + encodeURIComponent(location.href);
 ```
 
 [Table of Contents ↩](#table-of-contents)
