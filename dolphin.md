@@ -93,6 +93,7 @@ This URL action isn't ideal because you need to strip out the protocol manually 
         dolphin://[URL-WITHOUT-PROTOCOL]
 
     HTTPS URL Scheme:
+
         dolphin://[URL-WITHOUT-PROTOCOL]
 
 Note: This service is built into Mr. Reader. I've included it here for completeness and as an example.
