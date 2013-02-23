@@ -25,6 +25,8 @@ Like this whole project this guide is a work in progress, I'll be filling in mor
 
 One thing you may notice about these actions is that they often have extra long names like *Search 1Password for...? If Empty Search for Domain* or *Read Link Later in Pinbook (Private).* The intention is to be descriptive for you to choose which action to adopt but I encourage you to shorten them for your workflow. You might choose *1Password* and *Read Later in Pinbook* for instance as better names in practice.
 
+[Table of Contents ↩](#table-of-contents)
+
 ---
 
 ## Installing Drafts Actions
@@ -80,7 +82,7 @@ I contacted the developer to see if he could provide any assistance determining 
 
 Unfortionately, it [isn't possible](http://twitter.com/holman/status/302487837088051200) to setup custom MIME Types on GitHub. Rather than trying to host the files elsewhere (I don't have that level of access to a server) I opted for the slightly more complex download method. 
 
-If anyone knows another way to solve the problem that would be possible with GitHub please [let me know](README.md#news--contact).
+If anyone knows another way to solve the problem that would be possible with GitHub please [let me know](README.md#project-updates--contact-information).
 
 [Table of Contents ↩](#table-of-contents)
 
@@ -90,7 +92,7 @@ If anyone knows another way to solve the problem that would be possible with Git
 
 Many of of the bookmarklets on this site contain functionality that makes use of text you have selected in your browser. 
 
-For instance, the [Open in Pinbook](pinbook.md#open-in-pinbook) bookmarklet will take your text selection and put it into the bookmark Description in Pinbook. Another example is the [Send to Drafts]() bookmarklet that will add your selection as a blockquote underneath the URL.
+For instance, the [Open in Pinbook](pinbook.md#open-in-pinbook) bookmarklet will take your text selection and put it into the bookmark Description in Pinbook. Another example is the [Send to Drafts](drafts.md#send-to-drafts) bookmarklet that will add your selection as a blockquote underneath the URL.
 
 Unfortunately, different iOS browsers handle selections in bookmarklets differently and sometimes they don't do it particularly well. In a some browsers you can work around this problem but in others you will have no choice but to copy and paste the selection or you could consider using a different browser that handles the selection better like [Dolphin](http://dolphin-browser.com/).
 
