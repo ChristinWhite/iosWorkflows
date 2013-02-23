@@ -18,6 +18,7 @@ A summary and collection of iosWorkflows bookmarklets and web bookmarklets to in
 1. [Web Interactions](#web-interactions)
     1. [Bit.ly](#bitly)
     1. [Google Cache & Coral Cache](#google-cache--coral-cache)
+    1. [Markdownify](#markdownify)
     1. [Reading](#reading)
     1. [Save as PDF](#save-as-pdf)
     1. [Search Site](#search-site)
@@ -328,6 +329,20 @@ javascript:location.href='http:/webcache.googleusercontent.com/search?q=cache:'+
 ```javascript
 javascript:void((function(){location.href=location.href.replace(/^http%5C:%5C/%5C/([^%5C/%5C@]+)%5C/(?:)/,'http://'+'$1'.replace('%5C:','.')+'.nyud.net/');})())
 ```
+
+[Table of Contents ↩](#table-of-contents)
+
+---
+
+## Markdownify
+
+### Convert Page Content to Markdown
+
+```
+javascript:location.href='http://heckyesmarkdown.com/go/?read=0&preview=0&showframe=1&u='+encodeURIComponent(document.location.href);
+```
+
+A project from the awesome [Brett Terpstra](http://heckyesmarkdown.com).
 
 [Table of Contents ↩](#table-of-contents)
 
