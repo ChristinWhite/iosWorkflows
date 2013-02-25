@@ -1,0 +1,1 @@
+{"StandardSharingMenu":false,"Id":"APP:::383446497.162370","TextSelectionSharingMenu":true,"Template":"things:add?title={[TITLE]}&notes={[URL]}%0A%0A%3E%20{[TEXT-SELECTED]}","Name":"Send to Things with Selection","LinkSharingMenu":false,"Protocol":"things:"}
