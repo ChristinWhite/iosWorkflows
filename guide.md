@@ -31,9 +31,17 @@ One thing you may notice about these actions is that they often have extra long 
 
 ## Installing Drafts Actions
 
-~~To install Drafts actions simple browser the workflow page with the action you want in a browser on your iOS device and tap **Install Action.** Drafts must already be installed.~~
+I initially set this up to provide an easy **Install Action** link that you could tap on in your iOS devices browser in the same manner as the actions included in the [Drafts Actions Directory](http://actions.getdrafts.com/). 
 
-For some reason, this isn't working as an link, when you tap on it, nothing happens. However, if you copy and paste the URL into the address bar it works as expected. I'm going to contact the developer and will update the guide and workflows once I've received a reply.
+Unfortunately it turns out this doesn't seem to work for GitHub Markdown files. The problem (as far as I can tell) is that when GitHub converts Markdown into an HTML page it isn't sure what to do with urls that have a non-standard protocol such as *drafts://.*
+
+Regardless of whether you use a markdown link — *\[Install Action\]\(drafts://x-callback-url/...\)* — or as an HTML link — *\<a href="drafts://x-callback-url/...">Install Action\</a>* — it renders the link in the final page HTML simple as: *\<a>Text\</a>.*
+
+Anyone have an ideas how to get around this?
+
+### Workaround
+
+For now I've included the URLs in a code block that you can copy and paste into your browser's location bar, hit enter and Drafts should open up and install the Action.
 
 [Table of Contents ↩](#table-of-contents)
 
