@@ -71,41 +71,41 @@ To save space and increase legibility I'm only including *Normal* variation of t
 
 #### Add \[clipboard\] URL to Pinbook
 
-    pinbook://x-callback-url/add?url=[clipboard]
+    pinbook://x-callback-url/add?url=[[clipboard]]
 
 #### Add \[clipboard\] URL to Pinbook with Tags \[Prompt\]
 
-    pinbook://x-callback-url/add?url=[clipboard]&tags=[prompt]
+    pinbook://x-callback-url/add?url=[[clipboard]]&tags=[prompt]
 
 #### Add \[clipboard\] URL to Pinbook with Description \[Prompt\]
 
-    pinbook://x-callback-url/add?url=[clipboard]&description=[prompt]
+    pinbook://x-callback-url/add?url=[[clipboard]]&description=[prompt]
 
 ### Prompt Actions
 
 #### Add \[prompt\] URL to Pinbook
 
-    pinbook://x-callback-url/add?url=[prompt]
+    pinbook://x-callback-url/add?url=[prompt-URL]
 
-#### Add \[prompt\] URL to Pinbook with Tags \[Prompt\]
+#### Add \[prompt\] URL to Pinbook with Tags \[[prompt\]
 
-    pinbook://x-callback-url/add?url=[prompt]&tags=[prompt]
+    pinbook://x-callback-url/add?url=[prompt-URL]&tags=[prompt]
 
 #### Add \[prompt\] URL to Pinbook with Description \[clipboard\]
 
-    pinbook://x-callback-url/add?url=[prompt]&description=[clipboard]
+    pinbook://x-callback-url/add?url=[prompt-URL]&description=[clipboard]
 
-#### Add \[prompt\] URL to Pinbook with Description \[Prompt\]
+#### Add \[prompt\] URL to Pinbook with Description \[prompt\]
 
-    pinbook://x-callback-url/add?url=[prompt]&description=[prompt]
+    pinbook://x-callback-url/add?url=[prompt-URL]&description=[prompt]
 
-#### Add \[prompt\] URL to Pinbook with Tags \[Prompt\] & Description \[clipboard\]
+#### Add \[prompt\] URL to Pinbook with Tags \[prompt\] & Description \[clipboard\]
 
-    pinbook://x-callback-url/add?url=[prompt]&tags=[prompt]&description=[clipboard]
+    pinbook://x-callback-url/add?url=[prompt-URL]&tags=[prompt]&description=[clipboard]
 
-#### Add \[prompt\] URL to Pinbook with Tags \[Prompt\] & Description \[prompt\]
+#### Add \[prompt\] URL to Pinbook with Tags \[prompt\] & Description \[prompt\]
 
-    pinbook://x-callback-url/add?url=[prompt]&tags=[prompt]&description=[prompt]
+    pinbook://x-callback-url/add?url=[prompt-URL]&tags=[prompt]&description=[prompt]
 
 [Table of Contents ↩](#table-of-contents)
 
@@ -124,7 +124,9 @@ Note: For all of these actions the URL must be on the first line in Drafts. All 
 
         pinbook://x-callback-url/add?url=[[title]]&description=[[body]]&x-success=drafts://&x-cancel=drafts://
 
-[Install Action](drafts://x-callback-url/import_action?type=URL&name=Add%20Link%20to%20Pinbook&url=pinbook%3A%2F%2Fx-callback-url%2Fadd%3Furl%3D%5B%5Btitle%5D%5D%26description%3D%5B%5Bbody%5D%5D%26x-success%3Ddrafts%3A%2F%2F%26x-cancel%3Ddrafts%3A%2F%2F) • [Help](guide.md#installing-drafts-actions)
+To install the action copy and paste the following URL into your iOS browser's location bar and hit enter • [Help](guide.md#installing-drafts-actions)
+
+    drafts://x-callback-url/import_action?type=URL&name=Add%20Link%20to%20Pinbook&url=pinbook%3A%2F%2Fx-callback-url%2Fadd%3Furl%3D%5B%5Btitle%5D%5D%26description%3D%5B%5Bbody%5D%5D%26x-success%3Ddrafts%3A%2F%2F%26x-cancel%3Ddrafts%3A%2F%2F
 
 #### Add Link to Pinbook (Private)
 
@@ -133,7 +135,9 @@ Note: For all of these actions the URL must be on the first line in Drafts. All 
 
         pinbook://x-callback-url/add?url=[[title]]&description=[[body]]&x-success=drafts://&x-cancel=drafts://
 
-[Install Action](drafts://x-callback-url/import_action?type=URL&name=Add%20Link%20to%20Pinbook%20%28Private%29&url=pinbook%3A%2F%2Fx-callback-url%2Fadd%3Furl%3D%5B%5Btitle%5D%5D%26private%3Dyes%26description%3D%5B%5Bbody%5D%5D%26x-success%3Ddrafts%3A%2F%2F%26x-cancel%3Ddrafts%3A%2F%2F) • [Help](guide.md#installing-drafts-actions)
+To install the action copy and paste the following URL into your iOS browser's location bar and hit enter • [Help](guide.md#installing-drafts-actions)
+
+    drafts://x-callback-url/import_action?type=URL&name=Add%20Link%20to%20Pinbook%20%28Private%29&url=pinbook%3A%2F%2Fx-callback-url%2Fadd%3Furl%3D%5B%5Btitle%5D%5D%26private%3Dyes%26description%3D%5B%5Bbody%5D%5D%26x-success%3Ddrafts%3A%2F%2F%26x-cancel%3Ddrafts%3A%2F%2F
 
 #### Read Link Later in Pinbook
 
@@ -142,7 +146,9 @@ Note: For all of these actions the URL must be on the first line in Drafts. All 
 
         pinbook://x-callback-url/add?url=[[title]]&readlater=yes&description=[[body]]&x-success=drafts://&x-cancel=drafts://
 
-[Install Action](drafts://x-callback-url/import_action?type=URL&name=Read%20Link%20Later%20in%20Pinbook&url=pinbook%3A%2F%2Fx-callback-url%2Fadd%3Furl%3D%5B%5Btitle%5D%5D%26readlater%3Dyes%26description%3D%5B%5Bbody%5D%5D%26x-success%3Ddrafts%3A%2F%2F%26x-cancel%3Ddrafts%3A%2F%2F) • [Help](guide.md#installing-drafts-actions)
+To install the action copy and paste the following URL into your iOS browser's location bar and hit enter • [Help](guide.md#installing-drafts-actions)
+
+    drafts://x-callback-url/import_action?type=URL&name=Read%20Link%20Later%20in%20Pinbook&url=pinbook%3A%2F%2Fx-callback-url%2Fadd%3Furl%3D%5B%5Btitle%5D%5D%26readlater%3Dyes%26description%3D%5B%5Bbody%5D%5D%26x-success%3Ddrafts%3A%2F%2F%26x-cancel%3Ddrafts%3A%2F%2F
 
 #### Read Link Later in Pinbook (Private)
 
@@ -151,7 +157,9 @@ Note: For all of these actions the URL must be on the first line in Drafts. All 
 
         pinbook://x-callback-url/add?url=[[title]]&private=yes&readlater=yes&description=[[body]]&x-success=drafts://&x-cancel=drafts://
 
-[Install Action](drafts://x-callback-url/import_action?type=URL&name=Read%20Link%20Later%20in%20Pinbook%20%28Private%29&url=pinbook%3A%2F%2Fx-callback-url%2Fadd%3Furl%3D%5B%5Btitle%5D%5D%26private%3Dyes%26readlater%3Dyes%26description%3D%5B%5Bbody%5D%5D%26x-success%3Ddrafts%3A%2F%2F%26x-cancel%3Ddrafts%3A%2F%2F) • [Help](guide.md#installing-drafts-actions)
+To install the action copy and paste the following URL into your iOS browser's location bar and hit enter • [Help](guide.md#installing-drafts-actions)
+
+    drafts://x-callback-url/import_action?type=URL&name=Read%20Link%20Later%20in%20Pinbook%20%28Private%29&url=pinbook%3A%2F%2Fx-callback-url%2Fadd%3Furl%3D%5B%5Btitle%5D%5D%26private%3Dyes%26readlater%3Dyes%26description%3D%5B%5Bbody%5D%5D%26x-success%3Ddrafts%3A%2F%2F%26x-cancel%3Ddrafts%3A%2F%2F
 
 [Table of Contents ↩](#table-of-contents)
 
