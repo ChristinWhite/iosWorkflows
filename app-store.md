@@ -87,7 +87,7 @@ If there's a better way of handling this or if you can fill in any more informat
 
 Note: This action will search the App Store for whatever is on the first line of your draft.
 
-~~[Install Action](drafts://x-callback-url/import_action?type=URL&name=Search%20App%20Store%20for%20Title&url=itms-apps%3A%2F%2Fphobos.apple.com%2FWebObjects%2FMZSearch.woa%2Fwa%2Fsearch%3Fmedia%3Dsoftware%26term%3D%5B%5Btitle%5D%5D) • [Help](guide.md#installing-drafts-actions)~~ • Copy & paste this URL into the location bar:
+To install the action copy and paste the following URL into your iOS browser's location bar and hit enter • [Help](guide.md#installing-drafts-actions)
 
     drafts://x-callback-url/import_action?type=URL&name=Search%20App%20Store%20for%20Title&url=itms-apps%3A%2F%2Fphobos.apple.com%2FWebObjects%2FMZSearch.woa%2Fwa%2Fsearch%3Fmedia%3Dsoftware%26term%3D%5B%5Btitle%5D%5D
 

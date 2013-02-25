@@ -76,7 +76,7 @@ Just replace *!bang* with the !bang you'd like to hard code into the Action.
 
 *Note: This action will send Bang On whatever is on the first line of your draft.*
 
-~~[Install Action](drafts://x-callback-url/import_action?type=URL&name=Search%20Bang%20On%20for%20Title&url=bang-on%3A%2F%2F%3Fq%3D%5B%5Btitle%5D%5D) • [Help](guide.md#installing-draft-actions)~~ • Copy & paste this URL into the location bar:
+To install the action copy and paste the following URL into your iOS browser's location bar and hit enter • [Help](guide.md#installing-drafts-actions)
 
     drafts://x-callback-url/import_action?type=URL&name=Search%20Bang%20On%20for%20Title&url=bang-on%3A%2F%2F%3Fq%3D%5B%5Btitle%5D%5D
 
