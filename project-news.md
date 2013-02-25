@@ -2,6 +2,26 @@
 
 ## Project updates
 
+### February 25: Ready to Launch
+
+This project got announced a little bit earlier than I'd planned but it's finally to point where I had intended to launch it at. I've added a few new workflows and fixed or improved many more, everything *should* be tested and working now. 
+
+The documentation is started and while there's more to do I think it should make things a little easier. I'm hopeful that I can find a better solution to the Drafts actions install process as well as for installing Mr. Reader services but that may not be possible with GitHub. I'd welcome any suggestions!
+
+I'm reasonably happy with the template and overall structure of the project, I definitely hope that it will work well as we continue adding more and more workflows.
+
+There's still a lot that I want to learn about GitHub but the project has been forked by two awesome collaborators and I have merged in new changes, hopefully I won't make any more [embarrassing testing mistakes](http://twitter.com/chrisWhite/status/304486452023132160).
+
+What's next?
+
+- Add more apps! There's a bunch in the coming-soon folder and I'm planning on hitting Pinner, Scratch and the brand new awesome [Write](http://writeapp.net/) iPhone text editor next.
+- I like what [Michael Xander](https://github.com/michaelx) is doing with the [Bookmarklets page](_bookmarklets.md) and I'm considering doing collective Drafts actions, Mr. Reader services, etc. pages in the same way.
+- I'd like to get some more complex Drafts actions created. There are some awesome examples of this kind of thing over on [MacStories](http://www.macstories.net/tutorials/chaining-tweetbot-pythonista-drafts-and-imessage-for-urls/).
+
+I'm also going to start digging into [MyScripts](https://itunes.apple.com/us/app/myscripts/id492086539?mt=8), it's similar to [Pythonista](http://www.macstories.net/stories/automating-ios-how-pythonista-changed-my-workflow/) but for JavaScript. I don't know how quickly I'll be able to turn out anything very useful though.
+
+### February 20, 2013: Huge update
+
 Just pushed a *huge* update. 
 
 Please let me know if you run into any trouble with the changes.
