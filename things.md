@@ -14,7 +14,7 @@ Official Site: [iPad](http://culturedcode.com/things/ipad/) & [iPhone](http://cu
     1. [Other App Services](#other-app-services)
 1. [Bookmarklets](#bookmarklets)
     1. [Generic](#generic)
-1. [Suggested Improvements for Developer](#suggested-improvements-for-developer)
+1. [Suggested Improvements for Cultured Code](#suggested-improvements-for-cultured-code)
 
 ---
 
@@ -104,7 +104,9 @@ Note: Drafts has a *Send to Things* action built in that takes whatever is in yo
 
 This action will send the first line of your draft to Things as the task title and will send any following lines as the task notes.
 
-[Install Action](drafts://x-callback-url/import_action?type=URL&name=Send%20to%20Things%20with%20Notes&url=things%3Aadd%3Ftitle%3D%5B%5Btitle%5D%5D%26notes%3D%5B%5Bbody%5D%5D) • [Help](guide.md#installing-drafts-actions)
+To install the action copy and paste the following URL into your iOS browser's location bar and hit enter • [Help](guide.md#installing-drafts-actions)
+
+    drafts://x-callback-url/import_action?type=URL&name=Send%20to%20Things%20with%20Notes&url=things%3Aadd%3Ftitle%3D%5B%5Btitle%5D%5D%26notes%3D%5B%5Bbody%5D%5D
 
 #### Send to Things with Due Date
 
@@ -134,7 +136,9 @@ Each of these are invalid and Things will give you an error:
 > 2013-02-17
 > Maybe plug the iosWorkflows project
 
-[Install Action](drafts://x-callback-url/import_action?type=URL&name=Send%20to%20Things%20with%20Due%20Date&url=things%3Aadd%3Ftitle%3D%5B%5Btitle%5D%5D%26dueDate%3D%5B%5Bbody%5D%5D) • [Help](guide.md#installing-drafts-actions)
+To install the action copy and paste the following URL into your iOS browser's location bar and hit enter • [Help](guide.md#installing-drafts-actions)
+
+    drafts://x-callback-url/import_action?type=URL&name=Send%20to%20Things%20with%20Due%20Date&url=things%3Aadd%3Ftitle%3D%5B%5Btitle%5D%5D%26dueDate%3D%5B%5Bbody%5D%5D
 
 [Table of Contents ↩](#table-of-contents)
 
@@ -150,7 +154,7 @@ Each of these are invalid and Things will give you an error:
     Protocol: things:
     URL Scheme Template:
 
-        things:add?title={[TITLE])&notes={[URL]}
+        things:add?title={[TITLE]}&notes={[URL]}
     
     Visibility:
         Standard Menu: On
@@ -159,7 +163,7 @@ Each of these are invalid and Things will give you an error:
 
 Note: This service is built into Mr. Reader. I've included it here for completeness and as an example.
 
-[Download Service](https://github.com/christopherdwhite/iosWorkflows/raw/master/mrreader-services/things.mrreaderappconf) • [Help](guide.md#installing-mr-reader-browser-and-other-app-services)
+[Download Service](https://github.com/christopherdwhite/iosWorkflows/raw/master/mrreader-services/send-to-things.mrreaderappconf) • [Help](guide.md#installing-mr-reader-browser-and-other-app-services)
 
 #### Send to Things with Selection
 
@@ -167,7 +171,7 @@ Note: This service is built into Mr. Reader. I've included it here for completen
     Protocol: things:
     URL Scheme Template:
 
-        things:add?title={[TITLE])&notes={[URL]}%0A%0A%3E%20{[TEXT-SELECTED]}
+        things:add?title={[TITLE]}&notes={[URL]}%0A%0A%3E%20{[TEXT-SELECTED]}
     
     Visibility:
         Standard Menu: Off
@@ -180,7 +184,7 @@ This will add the selected text in this format:
 >
 > \> Text Selected
 
-[Download Service](https://github.com/christopherdwhite/iosWorkflows/raw/master/mrreader-services/things-with-selection.mrreaderappconf) • [Help](guide.md#installing-mr-reader-browser-and-other-app-services)
+[Download Service](https://github.com/christopherdwhite/iosWorkflows/raw/master/mrreader-services/send-to-things-with-selection.mrreaderappconf) • [Help](guide.md#installing-mr-reader-browser-and-other-app-services)
 
 Since I don't want an additional two line breaks & a '\>' symbol in a task's notes when I don't have anything selected I use a combination of both of these services. To make experience a little more seamless I turn *off* the *Text Selection Menu* visibility on official service. That way I always have only the correct service show up depending on the context.
 
