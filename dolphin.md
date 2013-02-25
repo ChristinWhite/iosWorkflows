@@ -40,7 +40,7 @@ Note: I believe the information on the handleOpenURL link is incorrect. Includin
 
 #### Open \[clipboard\] URL in Dolphin
 
-    dolphin://[clipboard]
+    dolphin://[[clipboard]]
 
 This isn't a great option since you need to make sure the URL in your clipboard doesn't have *http://* or *https://* attached. I'd recommend using the prompt action instead since you can paste into the prompt and then adjust the URL as needed.
 
@@ -48,7 +48,7 @@ This isn't a great option since you need to make sure the URL in your clipboard 
 
 #### Open \[prompt\] URL in Dolphin
 
-    dolphin://[prompt]
+    dolphin://[prompt-URL]
 
 Don't forget to remove the protocol.
 
@@ -72,7 +72,7 @@ This URL action isn't ideal because you need to strip out the protocol manually 
 
 *[dolphin://http://www.google.com](dolphin://http://www.google.com)*
 
-~~[Install Action](drafts://x-callback-url/import_action?type=URL&name=Open%20Link%20%28without%20protocol%29%20in%20Dolphin&url=dolphin%3A%2F%2F%5B%5Btitle%5D%5D) • [Help](guide.md#installing-draft-actions)~~ • Copy & paste this URL into the location bar:
+To install the action copy and paste the following URL into your iOS browser's location bar and hit enter • [Help](guide.md#installing-drafts-actions)
 
     drafts://x-callback-url/import_action?type=URL&name=Open%20Link%20%28without%20protocol%29%20in%20Dolphin&url=dolphin%3A%2F%2F%5B%5Btitle%5D%5D
 
