@@ -28,11 +28,11 @@ Feel free to contact me on Twitter [@iosWorkflows](http://www.twitter.com/iosWor
 
 ## About us
 
-This project was created by [Chris White](https://github.com/christopherdwhite). You can find Chris on [Twitter](http://www.twitter.com/chrisWhite)
+This project was created by [Chris White](https://github.com/christopherdwhite). You can find Chris [Twitter](http://www.twitter.com/chrisWhite).
 
 Awesome contributors:
 
 - [Charlie Tran](https://github.com/charlietran) 
-- [Michael Xander](https://github.com/michaelx)
+- [Michael Xander](https://github.com/michaelx). You can find Michael on [his site](http://michaelxander.de/) and on [Twitter](http://twitter.com/michael_xander).
 
 Want to get involved? Let me know!
