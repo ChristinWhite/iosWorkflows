@@ -55,7 +55,7 @@ Documentation: [Official - Developers: Here’s how to add a little 1Password to
 
 #### Open HTTP \[clipboard\] URL
 
-    ophttp://[clipboard]
+    ophttp://[[clipboard]]
 
 This clipboard action isn't ideal because you need to make sure that you copied the link without the protocol *http://* since 1Password doesn't know what to do with a URL that still has the protocol included. It gets confused by this kind of URL:
 
@@ -63,7 +63,7 @@ This clipboard action isn't ideal because you need to make sure that you copied 
 
 #### Open HTTPS \[clipboard\] URL
 
-    ophttps://[clipboard]
+    ophttps://[[clipboard]]
 
 The same is true for the *https://* protocol, you can't include it.
 
@@ -72,6 +72,16 @@ The same is true for the *https://* protocol, you can't include it.
     onepassword://search/[clipboard]
 
 ### Prompt Actions
+
+#### Open HTTP \[prompt\] URL
+
+    ophttp://[prompt-URL]
+
+Not being able to include the protocol actually works in our favor for the prompt actions, that's seven or eight fewer characters you have to type.
+
+#### Open HTTPS \[prompt\] URL
+
+    ophttps://[prompt-URL]
 
 #### Search 1Password for \[prompt\]
 
@@ -106,7 +116,7 @@ This URL action isn't ideal because you need to strip out the protocol manually 
 
 *[ophttp://http://www.google.com](ophttp://http://www.google.com)*
 
-~~[Install Action](drafts://x-callback-url/import_action?type=URL&name=Open%20Link%20%28without%20protocol%29%20in%201Password&url=ophttp%3A%2F%2F%5B%5Btitle%5D%5D) • [Help](guide.md#installing-draft-actions)~~ • Copy & paste this URL into the location bar:
+To install the action copy and paste the following URL into your iOS browser's location bar and hit enter • [Help](guide.md#installing-drafts-actions)
 
     drafts://x-callback-url/import_action?type=URL&name=Open%20Link%20%28without%20protocol%29%20in%201Password&url=ophttp%3A%2F%2F%5B%5Btitle%5D%5D
 
