@@ -39,8 +39,6 @@
     Example:
     	googlechromes://www.google.com
 
-
-
 ## x-callback-url:
   
     googlechrome-x-callback://
@@ -62,25 +60,37 @@ Documentation: [Official: Opening links in Chrome for iOS](https://developers.go
 
 ## Launch Center Pro Actions
 
+There are two variants to these actions, one variant — using the *googlechrome://* URL scheme — will only work when you do not include the *http://* or *https://* protocol while the other variant — using the *googlechrome-x-callback* URL scheme — will only work when you do include the protocol.
+
+Unfortunately, the problem with the *googlechrome-x-callback* URL scheme is that Launch Center Pro isn't able to find the Chrome icon to attach to actions that use it.
+
+I find that the vast majority of the time if I copy a URL to my clipboard it has the protocol attached so I therefore use the *googlechrome-x-callback* variant. However, when I'm typing in a URL via the prompt action I prefer not to have to type the extra seven or eight extra characters in and use the *googlechrome://* variant.
+
 ### Clipboard Actions
 
-#### Open \[clipboard\] in Chrome
+#### Open \[clipboard\] in Chrome (with protocol)
 
-    googlechrome-x-callback://x-callback-url/open/?url=[clipboard]
+    googlechrome-x-callback://x-callback-url/open/?url=[[clipboard]]
 
-You must have a valid URL in the clipboard.
+You must have a valid URL in the clipboard that includes *http://* or *http://*. *http://www.google.com*
+
+#### Open \[clipboard\] in Chrome (without protocol) (Official)
+
+    googlechrome://[[clipboard]]
+
+You must not include *http://* or *https://* in the URL. *www.google.com*
 
 ### Prompt Actions
 
 #### Open \[prompt\] in Chrome (with protocol)
 
-    googlechrome-x-callback://x-callback-url/open/?url=[prompt]
+    googlechrome-x-callback://x-callback-url/open/?url=[prompt-URL]
 
-You must include *http://* or *https://* in the URL. *http://www.google.com*
+You must have a valid URL in the clipboard that includes *http://* or *http://*. *http://www.google.com*
 
-#### Open \[prompt\] in Chrome (without protocol)
+#### Open \[prompt\] in Chrome (without protocol) (Official)
 
-    googlechrome://[prompt]
+    googlechrome://[prompt-URL]
 
 You must not include *http://* or *https://* in the URL. *www.google.com*
 
@@ -96,13 +106,16 @@ You must not include *http://* or *https://* in the URL. *www.google.com*
 
     Name: Open Link in Chrome
     URL:
+
         googlechrome-x-callback://x-callback-url/open/?url=[[title]]
 
 This action will send Drafts whatever is on the first line of your draft.
 
 You must include *http://* or *https://* in the URL. *http://www.google.com*
 
-[Install Action](drafts://x-callback-url/import_action?type=URL&name=Open%20Link%20in%20Chrome&url=googlechrome-x-callback%3A%2F%2Fx-callback-url%2Fopen%2F%3Furl%3D%5B%5Btitle%5D%5D) • [Help](guide.md#installing-draft-actions)
+To install the action copy and paste the following URL into your iOS browser's location bar and hit enter • [Help](guide.md#installing-drafts-actions)
+
+    drafts://x-callback-url/import_action?type=URL&name=Open%20Link%20in%20Chrome&url=googlechrome-x-callback%3A%2F%2Fx-callback-url%2Fopen%2F%3Furl%3D%5B%5Btitle%5D%5D
 
 #### Open Link (without protocol) in Chrome
 
@@ -115,7 +128,9 @@ This action will send Drafts whatever is on the first line of your draft.
 
 You must not include *http://* or *https://* in the URL. *www.google.com*
 
-[Install Action](drafts://x-callback-url/import_action?type=URL&name=Open%20Link%20%28without%20protocol%29%20in%20Chrome&url=googlechrome%3A%2F%2F%5B%5Btitle%5D%5D) • [Help](guide.md#installing-draft-actions)
+To install the action copy and paste the following URL into your iOS browser's location bar and hit enter • [Help](guide.md#installing-drafts-actions)
+
+    drafts://x-callback-url/import_action?type=URL&name=Open%20Link%20%28without%20protocol%29%20in%20Chrome&url=googlechrome%3A%2F%2F%5B%5Btitle%5D%5D
 
 #### Open Link (with protocol) in Chrome & Return to Drafts
 
@@ -128,7 +143,11 @@ This action will send Chrome whatever is on the first line of your draft. When y
 
 You must include *http://* or *https://* in the URL. *http://www.google.com*
 
-[Install Action](drafts://x-callback-url/import_action?type=URL&name=Open%20Link%20in%20Chrome%20%26%20Return%20to%20Drafts&url=googlechrome-x-callback%3A%2F%2Fx-callback-url%2Fopen%2F%3Furl%3D%5B%5Btitle%5D%5D%26x-source%3DDrafts%26x-success%3Ddrafts%3A%2F%2F) • [Help](guide.md#installing-draft-actions)
+Because this action requires Chrome's x-callback-url scheme it is only available in this variant. 
+
+To install the action copy and paste the following URL into your iOS browser's location bar and hit enter • [Help](guide.md#installing-drafts-actions)
+
+    drafts://x-callback-url/import_action?type=URL&name=Open%20Link%20in%20Chrome%20%26%20Return%20to%20Drafts&url=googlechrome-x-callback%3A%2F%2Fx-callback-url%2Fopen%2F%3Furl%3D%5B%5Btitle%5D%5D%26x-source%3DDrafts%26x-success%3Ddrafts%3A%2F%2F
 
 [Table of Contents ↩](#table-of-contents)
 
