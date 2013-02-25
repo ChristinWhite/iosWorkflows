@@ -24,6 +24,7 @@ For more ideas and workflows for use with Drafts check out Federico Viticci's Ma
     1. [iCab Mobile](#icab-mobile)
     1. [Mercury](#mercury)
 1. [Additional Ideas](#additional-ideas)
+1. [Suggested Improvements for Agile Tortoise](#suggested-improvements-for-agile-tortoise)
 
 ---
 
@@ -133,7 +134,7 @@ I like having two line breaks before the horizontal rule before the appended tex
 
 This is also easy to change, especially since Drafts will take care of the URL encoding for you.
 
-~~[Install Action](drafts://x-callback-url/import_action?type=dropbox&name=Append%20to%20Scratch&path=%2FDrafts%2F&filenametype=2&filename=Scratch&ext=ft&writetype=2&template=%0A%0A---%0A%0A%5B%5Bdraft%5D%5D%0A%0A%5B%5Btime_long%5D%5D) • [Help](guide.md#installing-drafts-actions)~~ • Copy & paste this URL into the location bar:
+To install the action copy and paste the following URL into your iOS browser's location bar and hit enter • [Help](guide.md#installing-drafts-actions)
 
     drafts://x-callback-url/import_action?type=dropbox&name=Append%20to%20Scratch&path=%2FDrafts%2F&filenametype=2&filename=Scratch&ext=ft&writetype=2&template=%0A%0A---%0A%0A%5B%5Bdraft%5D%5D%0A%0A%5B%5Btime_long%5D%5D
 
@@ -378,5 +379,17 @@ location.href = 'drafts://x-callback-url/create?'
 ## Additional Ideas
 
 I'm brimming with Drafts ideas, between Drafts flexibility with URL and Dropbox actions and its fantastic x-callback-url implementation the possibilities are endless. This will definitely be one of the most updated app workflows page, stay tuned!
+
+[Table of Contents ↩](#table-of-contents)
+
+---
+
+## Suggested Improvements for Agile Tortoise
+
+- Drafts isn't Mr. Reader, it isn't URL centric, however, a few URL features would be be awesome for some workflows. Specifically, I'd love to see [[url]] and [[url-without-protocol]] added to the URL actions. Ideally these would find and send the first URL in a draft so — unlike the workflows throughout this project — you wouldn't need place it on the first line to make use of the [[title]]. This would also be great for preventing errors like having a space before or after the URL on the [[title]].
+- Taken further, I could see it being cool to be able find and send all of the URLs in a Draft in some kind of array, perhaps in a CSV format. I don't think there's any other app out right now that could take advantage of this but I can think of a few examples where it could be cool:
+    1. Sending multiple links to a bookmarking app like [Pinbook](pinbook.md) for batch bookmarking.
+    2. Sending multiple links to a read later service like Pocket.
+    3. Sending multiple links to an outliner or mind mapping app.
 
 [Table of Contents ↩](#table-of-contents)
