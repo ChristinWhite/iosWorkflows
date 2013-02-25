@@ -1,6 +1,6 @@
 # App Name
 
-[Official Site](Link) • [iTunes Link](Link)
+[Official Site](Link) • [iTunes Link](https://itunes.apple.com/us/app/...)
 
 ## Table of Contents
 
@@ -37,7 +37,7 @@
     Example:
     	URL
 
-Documentation: [Official](Link) • [handleOpenURL](Link) • [App Lookup](Link)
+Documentation: [Official](Link) • [handleOpenURL](http://handleopenurl.com/scheme/...) • [App Lookup](http://applookup.com/App/...) • [akosma wiki](http://wiki.akosma.com/IPhone_URL_Schemes#...)
 
 [Table of Contents ↩](#table-of-contents)
 
@@ -79,7 +79,9 @@ Documentation: [Official](Link) • [handleOpenURL](Link) • [App Lookup](Link)
     URL:
         URL Template
 
-[Install Action](URL) • [Help](guide.md#installing-drafts-actions)
+To install the action copy and paste the following URL into your iOS browser's location bar and hit enter • [Help](guide.md#installing-drafts-actions)
+
+    URL
 
 ### Dropbox Actions
 
@@ -94,9 +96,12 @@ Documentation: [Official](Link) • [handleOpenURL](Link) • [App Lookup](Link)
     Ext: 
     Write: Create / Prepend / Append
     Template:
+
         Template
 
-[Install Action](URL) • [Help](guide.md#installing-drafts-actions)
+To install the action copy and paste the following URL into your iOS browser's location bar and hit enter • [Help](guide.md#installing-drafts-actions)
+
+    URL
 
 [Table of Contents ↩](#table-of-contents)
 
