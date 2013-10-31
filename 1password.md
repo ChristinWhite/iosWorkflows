@@ -246,6 +246,39 @@ location.href = 'onepassword://search/' + encodeURIComponent(search);
 
 This bookmarklet combines the prior two, I thought it could be useful to have the domain feature built into a single bookmarklet for anyone that sometimes uses the domain naming convention.
 
+#### Search 1Password for Selection > Prompt > Domain, or open url in the 1Password browser
+
+```javascript
+javascript:(function(){var%20selection=window.getSelection()+%22%22,domain=document.domain.replace(/^ww.*%3F\./gi,%22%22),search=selection||window.prompt(%22Search%201Password%20for...%20\n\nEmpty:%20%22+domain+%22\n%22+'%22O%22:%20O̲pen%20url%20in%201P%20browser');null!==search%26%26(window.location=%22o%22===search.toLowerCase()%3F%22op%22+window.location.href:%22onepassword://search/%22+encodeURIComponent(search||domain))})();
+```
+
+Expanded
+
+```javascript
+(function(){
+
+    var selection = window.getSelection() + "",
+        domain    = document.domain.replace(/^ww.*?\./gi, ""),
+        search    = ( selection || window.prompt(
+            'Search 1Password for... \n\n' +
+            'Empty: ' + domain + '\n' +
+            '"O": O\u0332pen url in 1P browser'
+        ));
+
+    if (search !== null) { // stop if the user clicked cancel
+        window.location = (search.toLowerCase() === 'o') ?
+            'op' + (window.location.href) :
+            'onepassword://search/' + encodeURIComponent(search || domain);
+    }
+
+}());
+```
+
+A bookmarklet that combines the [Search 1Password for Selection](#search-1password-for-selection-1) bookmarklet with [Search 1Password for...? If Empty Search for Domain.](search-1password-for-if-empty-search-for-domain). 
+
+**Bonus:** Enter `O` (for "Open") as your search query to open the current URL in the 1Password Browser.
+
+
 [Table of Contents ↩](#table-of-contents)
 
 ---
